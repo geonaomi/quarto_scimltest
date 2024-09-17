@@ -1,0 +1,14 @@
+listing: 
+  type: table
+  sort-ui: false
+  fields: 
+    - name
+    - hardware
+    - access
+  field-links: 
+    - name
+  field-display-names: 
+    name: Name
+format:
+  html:
+    anchor-sections: false

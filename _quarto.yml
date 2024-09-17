@@ -4,6 +4,16 @@ project:
 website:
   title: "sciml_quarto_test"
   navbar:
+    background: primary
+    search: true
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "GPUS"
+        href: gpus/index.qmd
+      - text: "Events"
+        href: pages/events.md
+      - about.qmd 
     right:
       - about.qmd
       - icon: github

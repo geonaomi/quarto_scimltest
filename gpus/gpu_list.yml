@@ -1,14 +1,10 @@
----
-layout: page
-title: GPU platforms
-permalink: /gpu/
 gpu_platforms:
   - name: ARC3
     hardware: 2 nodes with 2 x NVIDIA K80s, 6 nodes with 4 x NVIDIA P100s
     access:
         text: Anyone at Leeds
         url: https://arcdocs.leeds.ac.uk/getting_started/request_hpc_acct.html
-    project: ARC4
+  
   - name: JASMIN
     organization: NERC
     hardware: 6x NVidia GV100GL across 3 nodes
@@ -68,37 +64,4 @@ gpu_platforms:
         max_hours_per_day: 6hrs/day
         text: Free during evaluation period
     additional_info: https://www.paperspace.com/graphcore/
----
-
-Below is an overview of GPU platforms available for research by staff at the University of Leeds:
-
-<h2>GPU platforms</h2>
-
-<table>
-<tr>
-<th>Name</th>
-<th>Hardware</th>
-<th>Access</th>
-<th>Project</th>
-</tr>
-
-{% for platform in page.gpu_platforms %}
-<tr>
-<td>{{platform.name}}</td>
-<td>{{platform.hardware}}</td>
-<td>
-{% if platform.access.email %}
-Email <a href="mailto:{{platform.contact.email}}">{{platform.access.contact}}</a>
-{% elsif platform.access.url %}
-<a href="{{platform.contact.url}}">{{platform.access.url}}</a>
-{% elsif platform.access.text %}
-{{ platform.access.text }}
-{% endif %}
-</td>
-<td>{{platform.project}}</td>
-</tr>
-{% endfor %}
-
-</table>
-
-- [EuroHPC JU - supercomputers](https://eurohpc-ju.europa.eu/about/our-supercomputers_en)
+    

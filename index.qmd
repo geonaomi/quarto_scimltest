@@ -1,6 +1,7 @@
 ---
 title: "sciml_quarto_test"
-
+resources:
+  - "assets/people.yml"
 page-layout: full
 title-block-banner: true
 image: images/logo.png
@@ -79,7 +80,7 @@ View <a href="https://cemac.github.io/LIFD_ENV_ML_NOTEBOOKS/">LIFD Jupyter Noteb
 {% endfor %}
 
 <ul class='people-list'>
-{% for item in site.data.people %}
+{% for item in site.assets.people %}
 <li class='person-card'>
   {% assign image_path = image_path_placeholder %}
   {% for myimage in image_files %}
