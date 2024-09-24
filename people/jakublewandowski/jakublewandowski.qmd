@@ -16,25 +16,19 @@ applications:
 about:
   id: person-profile
   template: jolla
-  links:
-    icon: fab fa-github
-    text: github
-    href: Quba1
 ---
    
 :::{#person-profile}
 :::
    
 ##
-##Techniques
+## Techniques
    
 - Supervised learning
 - physics-informed neural networks
    
 ##
-##Research area
-##
-##Applications
+## Research area
    
 - Weather nowcasting
 - parametrization of atmospheric processes

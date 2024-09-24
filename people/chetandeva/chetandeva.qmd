@@ -16,23 +16,20 @@ applications:
 about:
   id: person-profile
   template: jolla
-  links: {}
 ---
    
 :::{#person-profile}
 :::
    
 ##
-##Techniques
+## Techniques
    
 - Random Forests
 - XGBoost
 - Long Short-Term Memory
    
 ##
-##Research area
-##
-##Applications
+## Research area
    
 - Modelling Plant Behaviour across G*E
 - Time Series Forecasting of Vegetation Dynamics

@@ -18,25 +18,19 @@ applications:
 about:
   id: person-profile
   template: jolla
-  links:
-    icon: fab fa-github
-    text: github
-    href: donaldcummins
 ---
    
 :::{#person-profile}
 :::
    
 ##
-##Techniques
+## Techniques
    
 - Neural networks
 - state-space modelling
    
 ##
-##Research area
-##
-##Applications
+## Research area
    
 - Turbulence parametrizations
 - simple climate models

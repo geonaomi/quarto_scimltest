@@ -16,26 +16,20 @@ applications:
 about:
   id: person-profile
   template: jolla
-  links:
-    icon: fab fa-github
-    text: github
-    href: Ryukijano
 ---
    
 :::{#person-profile}
 :::
    
 ##
-##Techniques
+## Techniques
    
 - Deep learning
 - Generative Adversarial Networks
 - Transformers
    
 ##
-##Research area
-##
-##Applications
+## Research area
    
 - Synthetic medical data generation.
 - Future frame prediction for medical videos.

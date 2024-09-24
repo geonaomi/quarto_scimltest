@@ -15,25 +15,19 @@ applications:
 about:
   id: person-profile
   template: jolla
-  links:
-    icon: fab fa-github
-    text: github
-    href: jconnollyeo
 ---
    
 :::{#person-profile}
 :::
    
 ##
-##Techniques
+## Techniques
    
 - Supervised learning
 - Random Forests
    
 ##
-##Research area
-##
-##Applications
+## Research area
    
 - InSAR Time series
 - Noise reduction in SAR data

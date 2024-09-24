@@ -17,26 +17,20 @@ applications:
 about:
   id: person-profile
   template: jolla
-  links:
-    icon: fab fa-github
-    text: github
-    href: zhangchong12
 ---
    
 :::{#person-profile}
 :::
    
 ##
-##Techniques
+## Techniques
    
 - Neural networks
 - inversions
 - filters
    
 ##
-##Research area
-##
-##Applications
+## Research area
    
 - mineral system exploration
 - subsurface structure

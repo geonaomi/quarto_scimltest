@@ -19,26 +19,20 @@ applications:
 about:
   id: person-profile
   template: jolla
-  links:
-    icon: fab fa-github
-    text: github
-    href: AlistairCurd
 ---
    
 :::{#person-profile}
 :::
    
 ##
-##Techniques
+## Techniques
    
 - Explainable neural networks
 - models for images and point patterns,
 - classification
    
 ##
-##Research area
-##
-##Applications
+## Research area
    
 - Biomedical fluorescence microscopy
 - Pathology methods

@@ -19,26 +19,20 @@ applications:
 about:
   id: person-profile
   template: jolla
-  links:
-    icon: fab fa-github
-    text: github
-    href: R-Wolfcastle
 ---
    
 :::{#person-profile}
 :::
    
 ##
-##Techniques
+## Techniques
    
 - Weakly-supervised learning
 - Convolutional networks
 - Numerical modelling
    
 ##
-##Research area
-##
-##Applications
+## Research area
    
 - Glacier damage identification
 - SAR data

@@ -17,26 +17,20 @@ applications:
 about:
   id: person-profile
   template: jolla
-  links:
-    icon: fab fa-github
-    text: github
-    href: ShrutiZhang
 ---
    
 :::{#person-profile}
 :::
    
 ##
-##Techniques
+## Techniques
    
 - Random Forests
 - XGBoost
 - LSTM
    
 ##
-##Research area
-##
-##Applications
+## Research area
    
 - Tropospheric ozone forcast
 - Weather classification

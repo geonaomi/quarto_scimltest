@@ -18,26 +18,20 @@ applications:
 about:
   id: person-profile
   template: jolla
-  links:
-    icon: fab fa-github
-    text: github
-    href: ZoeHancox
 ---
    
 :::{#person-profile}
 :::
    
 ##
-##Techniques
+## Techniques
    
 - Temporal graphs
 - 3d convolutional neural networks
 - hypergraphs
    
 ##
-##Research area
-##
-##Applications
+## Research area
    
 - Health outcome prediction
 - patient trajectory visualisation

@@ -16,25 +16,19 @@ applications:
 about:
   id: person-profile
   template: jolla
-  links:
-    icon: fab fa-github
-    text: github
-    href: jdconey
 ---
    
 :::{#person-profile}
 :::
    
 ##
-##Techniques
+## Techniques
    
 - Supervised learning
 - convolutional networks
    
 ##
-##Research area
-##
-##Applications
+## Research area
    
 - segmentation of atmospheric gravity waves
 - learning physical characteristics from model output

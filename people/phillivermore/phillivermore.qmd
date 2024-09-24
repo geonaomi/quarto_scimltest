@@ -17,24 +17,18 @@ applications:
 about:
   id: person-profile
   template: jolla
-  links:
-    icon: fab fa-github
-    text: github
-    href: plivermore
 ---
    
 :::{#person-profile}
 :::
    
 ##
-##Techniques
+## Techniques
    
 - Physics informed neural networks
    
 ##
-##Research area
-##
-##Applications
+## Research area
    
 - Reconstruction of earth/planetary magnetic fields from sparse data
 - deep earth geophysics

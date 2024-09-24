@@ -13,24 +13,18 @@ applications:
 about:
   id: person-profile
   template: jolla
-  links:
-    icon: fab fa-github
-    text: github
-    href: mh60385
 ---
    
 :::{#person-profile}
 :::
    
 ##
-##Techniques
+## Techniques
    
 - Language modelling
 - data mining
    
 ##
-##Research area
-##
-##Applications
+## Research area
    
 - Text analysis of historic auction records

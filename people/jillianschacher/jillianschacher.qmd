@@ -16,26 +16,20 @@ applications:
 about:
   id: person-profile
   template: jolla
-  links:
-    icon: fab fa-github
-    text: github
-    href: jschacher1
 ---
    
 :::{#person-profile}
 :::
    
 ##
-##Techniques
+## Techniques
    
 - Gis
 - nvivo
 - wizard
    
 ##
-##Research area
-##
-##Applications
+## Research area
    
 - Marine spatial planning
 - species distribution

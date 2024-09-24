@@ -14,23 +14,17 @@ applications:
 about:
   id: person-profile
   template: jolla
-  links:
-    icon: fab fa-github
-    text: github
-    href: LeyuanWu
 ---
    
 :::{#person-profile}
 :::
    
 ##
-##Techniques
+## Techniques
    
 - Physics informed neural networks
    
 ##
-##Research area
-##
-##Applications
+## Research area
    
 - Earth and planets' gravity field modelling

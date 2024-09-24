@@ -18,26 +18,20 @@ applications:
 about:
   id: person-profile
   template: jolla
-  links:
-    icon: fab fa-github
-    text: github
-    href: damao2021
 ---
    
 :::{#person-profile}
 :::
    
 ##
-##Techniques
+## Techniques
    
 - Physics-informed neural networks
 - deeponet
 - Bayesian PINN
    
 ##
-##Research area
-##
-##Applications
+## Research area
    
 - Planetary magnetic field modelling
 - asteroid gravity modelling

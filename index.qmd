@@ -10,9 +10,8 @@ listing:
   contents: "people/*/**.qmd"
   type: grid
   sort: "title"
-  categories: true
   filter-ui: True
-  fields: [image,title,subtitle, links, categories]
+  fields: [image,title,description, links, categories]
   field-display-names: 
       links: Links
   grid-item-align: center

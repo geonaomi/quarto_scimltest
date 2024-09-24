@@ -16,25 +16,19 @@ applications:
 about:
   id: person-profile
   template: jolla
-  links:
-    icon: fab fa-github
-    text: github
-    href: claire-bartholomew
 ---
    
 :::{#person-profile}
 :::
    
 ##
-##Techniques
+## Techniques
    
 - Supervised learning
 - CNNs
    
 ##
-##Research area
-##
-##Applications
+## Research area
    
 - Precipitation nowcasting
 - Convection / thunderstorm prediction

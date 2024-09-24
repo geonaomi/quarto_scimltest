@@ -17,26 +17,20 @@ applications:
 about:
   id: person-profile
   template: jolla
-  links:
-    icon: fab fa-github
-    text: github
-    href: eebjwa
 ---
    
 :::{#person-profile}
 :::
    
 ##
-##Techniques
+## Techniques
    
 - Supervised learning
 - Convolutional networks
 - Bayesian methods
    
 ##
-##Research area
-##
-##Applications
+## Research area
    
 - Tidewater glacier dynamics
 - Ice ocean interaction

@@ -16,25 +16,19 @@ applications:
 about:
   id: person-profile
   template: jolla
-  links:
-    icon: fab fa-github
-    text: github
-    href: leifdenby
 ---
    
 :::{#person-profile}
 :::
    
 ##
-##Techniques
+## Techniques
    
 - Self-supervised/unsupervised learning
 - convolutional networks
    
 ##
-##Research area
-##
-##Applications
+## Research area
    
 - meso-scale cloud organisation
 - denoising of LIDAR water vapour observations

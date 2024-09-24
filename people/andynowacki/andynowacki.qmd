@@ -15,25 +15,19 @@ applications:
 about:
   id: person-profile
   template: jolla
-  links:
-    icon: fab fa-github
-    text: github
-    href: anowacki
 ---
    
 :::{#person-profile}
 :::
    
 ##
-##Techniques
+## Techniques
    
 - Neural networks
 - classification
    
 ##
-##Research area
-##
-##Applications
+## Research area
    
 - Detection and location of earthquakes and icequakes
 - subsurface structure and characterisation

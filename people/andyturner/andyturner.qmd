@@ -15,25 +15,19 @@ applications:
 about:
   id: person-profile
   template: jolla
-  links:
-    icon: fab fa-github
-    text: github
-    href: agdturner
 ---
    
 :::{#person-profile}
 :::
    
 ##
-##Techniques
+## Techniques
    
 - Multi-layered Perceptron
 - Fuzzy Inference
    
 ##
-##Research area
-##
-##Applications
+## Research area
    
 - Predicting spatial and temporal change
 - Forecasting climate change impacts

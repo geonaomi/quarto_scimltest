@@ -15,25 +15,19 @@ applications:
 about:
   id: person-profile
   template: jolla
-  links:
-    icon: fab fa-github
-    text: github
-    href: eejasm
 ---
    
 :::{#person-profile}
 :::
    
 ##
-##Techniques
+## Techniques
    
 - Random Forests
 - GANs
    
 ##
-##Research area
-##
-##Applications
+## Research area
    
 - Storm tracking and initiation prediction
 - Precipitation nowcasting

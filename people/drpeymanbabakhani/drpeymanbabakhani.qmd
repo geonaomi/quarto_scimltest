@@ -18,26 +18,20 @@ applications:
 about:
   id: person-profile
   template: jolla
-  links:
-    icon: fab fa-github
-    text: github
-    href: null
 ---
    
 :::{#person-profile}
 :::
    
 ##
-##Techniques
+## Techniques
    
 - Deep learning
 - physics-informed ai
 - random forest
    
 ##
-##Research area
-##
-##Applications
+## Research area
    
 - Global carbon cycling
 - environmental contaminant transport

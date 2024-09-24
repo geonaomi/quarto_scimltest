@@ -17,26 +17,20 @@ applications:
 about:
   id: person-profile
   template: jolla
-  links:
-    icon: fab fa-github
-    text: github
-    href: shigemitsu-yutaro
 ---
    
 :::{#person-profile}
 :::
    
 ##
-##Techniques
+## Techniques
    
 - Interferometric sar (insar)
 - drone sar
 - pinn (under training)
    
 ##
-##Research area
-##
-##Applications
+## Research area
    
 - Monitoring volcano
 - monitoring seasonal deformation changes

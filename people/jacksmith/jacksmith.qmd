@@ -18,26 +18,20 @@ applications:
 about:
   id: person-profile
   template: jolla
-  links:
-    icon: fab fa-github
-    text: github
-    href: Mysterymanreturns
 ---
    
 :::{#person-profile}
 :::
    
 ##
-##Techniques
+## Techniques
    
 - Cnns
 - synthetic data
 - gans
    
 ##
-##Research area
-##
-##Applications
+## Research area
    
 - Semantic segmentation of masonry lined tunnel joints
 - structural condition assessment

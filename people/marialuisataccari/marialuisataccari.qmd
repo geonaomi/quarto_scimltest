@@ -20,17 +20,13 @@ applications:
 about:
   id: person-profile
   template: jolla
-  links:
-    icon: fab fa-github
-    text: github
-    href: mlttac
 ---
    
 :::{#person-profile}
 :::
    
 ##
-##Techniques
+## Techniques
    
 - Operator learning
 - PINNs
@@ -38,9 +34,7 @@ about:
 - Convolutional networks
    
 ##
-##Research area
-##
-##Applications
+## Research area
    
 - Groundwater prediction
 - Surrogate modelling

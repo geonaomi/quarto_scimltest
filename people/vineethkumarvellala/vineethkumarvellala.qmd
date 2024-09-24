@@ -16,26 +16,20 @@ applications:
 about:
   id: person-profile
   template: jolla
-  links:
-    icon: fab fa-github
-    text: github
-    href: VellalaVineethKumar
 ---
    
 :::{#person-profile}
 :::
    
 ##
-##Techniques
+## Techniques
    
 - Deep learning
 - data wrangling
 - statistical modelling
    
 ##
-##Research area
-##
-##Applications
+## Research area
    
 - Synthetic medical data generation
 - object detection and tracking for 360° videos

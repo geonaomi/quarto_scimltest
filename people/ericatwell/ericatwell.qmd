@@ -16,26 +16,20 @@ applications:
 about:
   id: person-profile
   template: jolla
-  links:
-    icon: fab fa-github
-    text: github
-    href: csc6ea
 ---
    
 :::{#person-profile}
 :::
    
 ##
-##Techniques
+## Techniques
    
 - Text analytics
 - sketchengine
 - chatbots
    
 ##
-##Research area
-##
-##Applications
+## Research area
    
 - University teaching and assessment
 - understanding quran and hadith

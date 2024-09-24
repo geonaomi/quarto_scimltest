@@ -13,23 +13,17 @@ applications:
 about:
   id: person-profile
   template: jolla
-  links:
-    icon: fab fa-github
-    text: github
-    href: SimonPeatman
 ---
    
 :::{#person-profile}
 :::
    
 ##
-##Techniques
+## Techniques
    
 - Neural networks
    
 ##
-##Research area
-##
-##Applications
+## Research area
    
 - Classification of convective weather systems

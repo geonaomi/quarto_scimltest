@@ -18,26 +18,20 @@ applications:
 about:
   id: person-profile
   template: jolla
-  links:
-    icon: fab fa-github
-    text: github
-    href: eejg
 ---
    
 :::{#person-profile}
 :::
    
 ##
-##Techniques
+## Techniques
    
 - Supervised learning
 - neural networks
 - random forests
    
 ##
-##Research area
-##
-##Applications
+## Research area
    
 - Crop yield estimation
 - impacts of climate variability
