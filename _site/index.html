@@ -77,10 +77,10 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-categories','listing-name','listing-links',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-subtitle','listing-links',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       page: 18,
     pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-applications","listing-categories","listing-image","listing-links","listing-name","listing-social","listing-techniques","listing-subtitle"],
+      searchColumns: ["listing-title","listing-subtitle","listing-image","listing-categories","listing-links"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -237,26 +237,21 @@ window.Quarto = {
     </div>
 </div>
 <div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-categories="">
+<div class="g-col-1" data-index="0" data-categories="Deep Learning,CNN">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
 <img loading="lazy" src="../assets/img/leifdenby.jpeg" class="thumbnail-image card-img" style="height: 325px;">
 </p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-
+<h5 class="no-anchor card-title listing-title">
+Leif Denby
+</h5>
+<div class="card-subtitle listing-subtitle">
+meso-scale cloud organisation
 </div>
 <table class="card-other-values">
 <tbody><tr>
-<td>
-name
-</td>
-<td class="name">
-Leif Denby
-</td>
-</tr>
-<tr>
 <td>
 Links
 </td>
@@ -269,26 +264,21 @@ Links
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="">
+<div class="g-col-1" data-index="1" data-categories="Decision Trees">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
 <img loading="lazy" src="../assets/img/chetandeva.jpg" class="thumbnail-image card-img" style="height: 325px;">
 </p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-
+<h5 class="no-anchor card-title listing-title">
+Chetan Deva
+</h5>
+<div class="card-subtitle listing-subtitle">
+Modelling Plant Behaviour across G*E
 </div>
 <table class="card-other-values">
 <tbody><tr>
-<td>
-name
-</td>
-<td class="name">
-Chetan Deva
-</td>
-</tr>
-<tr>
 <td>
 Links
 </td>
@@ -301,26 +291,21 @@ Links
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="">
+<div class="g-col-1" data-index="2" data-categories="Deep Learning,CNN">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
 <img loading="lazy" src="../assets/img/samuelbancroft.jpg" class="thumbnail-image card-img" style="height: 325px;">
 </p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-
+<h5 class="no-anchor card-title listing-title">
+Samuel Bancroft
+</h5>
+<div class="card-subtitle listing-subtitle">
+crop type classification
 </div>
 <table class="card-other-values">
 <tbody><tr>
-<td>
-name
-</td>
-<td class="name">
-Samuel Bancroft
-</td>
-</tr>
-<tr>
 <td>
 Links
 </td>
@@ -333,26 +318,21 @@ Links
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="">
+<div class="g-col-1" data-index="3" data-categories="Deep Learning,CNN">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
 <img loading="lazy" src="../assets/img/jonathanconey.jpg" class="thumbnail-image card-img" style="height: 325px;">
 </p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-
+<h5 class="no-anchor card-title listing-title">
+Jonathan Coney
+</h5>
+<div class="card-subtitle listing-subtitle">
+segmentation of atmospheric gravity waves
 </div>
 <table class="card-other-values">
 <tbody><tr>
-<td>
-name
-</td>
-<td class="name">
-Jonathan Coney
-</td>
-</tr>
-<tr>
 <td>
 Links
 </td>
@@ -365,26 +345,21 @@ Links
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="">
+<div class="g-col-1" data-index="4" data-categories="Deep Learning,CNN">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
 <img loading="lazy" src="../assets/img/trystansurawy-stepney.jpg" class="thumbnail-image card-img" style="height: 325px;">
 </p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-
+<h5 class="no-anchor card-title listing-title">
+Trystan Surawy-Stepney
+</h5>
+<div class="card-subtitle listing-subtitle">
+Glacier damage identification
 </div>
 <table class="card-other-values">
 <tbody><tr>
-<td>
-name
-</td>
-<td class="name">
-Trystan Surawy-Stepney
-</td>
-</tr>
-<tr>
 <td>
 Links
 </td>
@@ -397,26 +372,21 @@ Links
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="">
+<div class="g-col-1" data-index="5" data-categories="Deep Learning,CNN">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
 <img loading="lazy" src="../assets/img/portrait_placeholder.png" class="thumbnail-image card-img" style="height: 325px;">
 </p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-
+<h5 class="no-anchor card-title listing-title">
+Ben Wallis
+</h5>
+<div class="card-subtitle listing-subtitle">
+Tidewater glacier dynamics
 </div>
 <table class="card-other-values">
 <tbody><tr>
-<td>
-name
-</td>
-<td class="name">
-Ben Wallis
-</td>
-</tr>
-<tr>
 <td>
 Links
 </td>
@@ -429,26 +399,21 @@ Links
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="">
+<div class="g-col-1" data-index="6" data-categories="Decision Trees">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
 <img loading="lazy" src="../assets/img/joeysmith.png" class="thumbnail-image card-img" style="height: 325px;">
 </p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-
+<h5 class="no-anchor card-title listing-title">
+Joey Smith
+</h5>
+<div class="card-subtitle listing-subtitle">
+Storm tracking and initiation prediction
 </div>
 <table class="card-other-values">
 <tbody><tr>
-<td>
-name
-</td>
-<td class="name">
-Joey Smith
-</td>
-</tr>
-<tr>
 <td>
 Links
 </td>
@@ -461,28 +426,21 @@ Links
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="committee">
+<div class="g-col-1" data-index="7" data-categories="committee,Deep Learning,CNN,PINNS">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
 <img loading="lazy" src="../assets/img/marialuisataccari.jpg" class="thumbnail-image card-img" style="height: 325px;">
 </p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('committee'); return false;">
-committee
-</div>
+<h5 class="no-anchor card-title listing-title">
+Maria Luisa Taccari
+</h5>
+<div class="card-subtitle listing-subtitle">
+Groundwater prediction
 </div>
 <table class="card-other-values">
 <tbody><tr>
-<td>
-name
-</td>
-<td class="name">
-Maria Luisa Taccari
-</td>
-</tr>
-<tr>
 <td>
 Links
 </td>
@@ -495,26 +453,21 @@ Links
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8" data-categories="">
+<div class="g-col-1" data-index="8" data-categories="Deep Learning">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
 <img loading="lazy" src="../assets/img/portrait_placeholder.png" class="thumbnail-image card-img" style="height: 325px;">
 </p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-
+<h5 class="no-anchor card-title listing-title">
+Calum S. Skene
+</h5>
+<div class="card-subtitle listing-subtitle">
+Geophysical and astrophysical turbulence
 </div>
 <table class="card-other-values">
 <tbody><tr>
-<td>
-name
-</td>
-<td class="name">
-Calum S. Skene
-</td>
-</tr>
-<tr>
 <td>
 Links
 </td>
@@ -527,26 +480,21 @@ Links
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="9" data-categories="">
+<div class="g-col-1" data-index="9" data-categories="Deep Learning,CNN">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
 <img loading="lazy" src="../assets/img/dodydharma.jpg" class="thumbnail-image card-img" style="height: 325px;">
 </p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-
+<h5 class="no-anchor card-title listing-title">
+Dody Dharma
+</h5>
+<div class="card-subtitle listing-subtitle">
+Deformbale Solid and Fluid Simulation
 </div>
 <table class="card-other-values">
 <tbody><tr>
-<td>
-name
-</td>
-<td class="name">
-Dody Dharma
-</td>
-</tr>
-<tr>
 <td>
 Links
 </td>
@@ -559,28 +507,21 @@ Links
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="10" data-categories="committee">
+<div class="g-col-1" data-index="10" data-categories="committee,Deep Learning,CNN,PINNS">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
 <img loading="lazy" src="../assets/img/naomishakespeare-rees.jpg" class="thumbnail-image card-img" style="height: 325px;">
 </p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('committee'); return false;">
-committee
-</div>
+<h5 class="no-anchor card-title listing-title">
+Naomi Shakespeare-Rees
+</h5>
+<div class="card-subtitle listing-subtitle">
+Geomagnetism
 </div>
 <table class="card-other-values">
 <tbody><tr>
-<td>
-name
-</td>
-<td class="name">
-Naomi Shakespeare-Rees
-</td>
-</tr>
-<tr>
 <td>
 Links
 </td>
@@ -593,26 +534,21 @@ Links
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="11" data-categories="">
+<div class="g-col-1" data-index="11" data-categories="Deep Learning,CNN">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
 <img loading="lazy" src="../assets/img/portrait_placeholder.png" class="thumbnail-image card-img" style="height: 325px;">
 </p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-
+<h5 class="no-anchor card-title listing-title">
+Shenghao Qiu
+</h5>
+<div class="card-subtitle listing-subtitle">
+Parallel and Distributed Deep Learning
 </div>
 <table class="card-other-values">
 <tbody><tr>
-<td>
-name
-</td>
-<td class="name">
-Shenghao Qiu
-</td>
-</tr>
-<tr>
 <td>
 Links
 </td>
@@ -625,26 +561,21 @@ Links
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="12" data-categories="">
+<div class="g-col-1" data-index="12" data-categories="Decision Trees">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
 <img loading="lazy" src="../assets/img/shuzhang.jpg" class="thumbnail-image card-img" style="height: 325px;">
 </p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-
+<h5 class="no-anchor card-title listing-title">
+Shu Zhang
+</h5>
+<div class="card-subtitle listing-subtitle">
+Tropospheric ozone forcast
 </div>
 <table class="card-other-values">
 <tbody><tr>
-<td>
-name
-</td>
-<td class="name">
-Shu Zhang
-</td>
-</tr>
-<tr>
 <td>
 Links
 </td>
@@ -657,26 +588,21 @@ Links
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="13" data-categories="">
+<div class="g-col-1" data-index="13" data-categories="Deep Learning,PINNS">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
 <img loading="lazy" src="../assets/img/phillivermore.png" class="thumbnail-image card-img" style="height: 325px;">
 </p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-
+<h5 class="no-anchor card-title listing-title">
+Phil Livermore
+</h5>
+<div class="card-subtitle listing-subtitle">
+Reconstruction of earth/planetary magnetic fields from sparse data
 </div>
 <table class="card-other-values">
 <tbody><tr>
-<td>
-name
-</td>
-<td class="name">
-Phil Livermore
-</td>
-</tr>
-<tr>
 <td>
 Links
 </td>
@@ -689,26 +615,21 @@ Links
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="14" data-categories="">
+<div class="g-col-1" data-index="14" data-categories="Deep Learning,PINNS">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
 <img loading="lazy" src="../assets/img/jakublewandowski.png" class="thumbnail-image card-img" style="height: 325px;">
 </p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-
+<h5 class="no-anchor card-title listing-title">
+Jakub Lewandowski
+</h5>
+<div class="card-subtitle listing-subtitle">
+Weather nowcasting
 </div>
 <table class="card-other-values">
 <tbody><tr>
-<td>
-name
-</td>
-<td class="name">
-Jakub Lewandowski
-</td>
-</tr>
-<tr>
 <td>
 Links
 </td>
@@ -721,26 +642,21 @@ Links
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="15" data-categories="">
+<div class="g-col-1" data-index="15" data-categories="Deep Learning,Decision Trees">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
 <img loading="lazy" src="../assets/img/joegallear.jpg" class="thumbnail-image card-img" style="height: 325px;">
 </p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-
+<h5 class="no-anchor card-title listing-title">
+Joe Gallear
+</h5>
+<div class="card-subtitle listing-subtitle">
+Crop yield estimation
 </div>
 <table class="card-other-values">
 <tbody><tr>
-<td>
-name
-</td>
-<td class="name">
-Joe Gallear
-</td>
-</tr>
-<tr>
 <td>
 Links
 </td>
@@ -753,26 +669,21 @@ Links
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="16" data-categories="">
+<div class="g-col-1" data-index="16" data-categories="Deep Learning,CNN">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
 <img loading="lazy" src="../assets/img/portrait_placeholder.png" class="thumbnail-image card-img" style="height: 325px;">
 </p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-
+<h5 class="no-anchor card-title listing-title">
+Sam Llanwarne
+</h5>
+<div class="card-subtitle listing-subtitle">
+very large histology tissue image, preprocessing and classification
 </div>
 <table class="card-other-values">
 <tbody><tr>
-<td>
-name
-</td>
-<td class="name">
-Sam Llanwarne
-</td>
-</tr>
-<tr>
 <td>
 Links
 </td>
@@ -785,26 +696,21 @@ Links
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="17" data-categories="">
+<div class="g-col-1" data-index="17" data-categories="Deep Learning">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
 <img loading="lazy" src="../assets/img/portrait_placeholder.png" class="thumbnail-image card-img" style="height: 325px;">
 </p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-
+<h5 class="no-anchor card-title listing-title">
+Andy Nowacki
+</h5>
+<div class="card-subtitle listing-subtitle">
+Detection and location of earthquakes and icequakes
 </div>
 <table class="card-other-values">
 <tbody><tr>
-<td>
-name
-</td>
-<td class="name">
-Andy Nowacki
-</td>
-</tr>
-<tr>
 <td>
 Links
 </td>
@@ -817,26 +723,21 @@ Links
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="18" data-categories="">
+<div class="g-col-1" data-index="18" data-categories="Deep Learning">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
 <img loading="lazy" data-src="../assets/img/portrait_placeholder.png" class="thumbnail-image card-img" style="height: 325px;">
 </p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-
+<h5 class="no-anchor card-title listing-title">
+John Chong Zhang
+</h5>
+<div class="card-subtitle listing-subtitle">
+mineral system exploration
 </div>
 <table class="card-other-values">
 <tbody><tr>
-<td>
-name
-</td>
-<td class="name">
-John Chong Zhang
-</td>
-</tr>
-<tr>
 <td>
 Links
 </td>
@@ -849,28 +750,21 @@ Links
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="19" data-categories="committee">
+<div class="g-col-1" data-index="19" data-categories="committee,Deep Learning">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
 <img loading="lazy" data-src="../assets/img/mirandahorne.png" class="thumbnail-image card-img" style="height: 325px;">
 </p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('committee'); return false;">
-committee
-</div>
+<h5 class="no-anchor card-title listing-title">
+Miranda Horne
+</h5>
+<div class="card-subtitle listing-subtitle">
+Computational Fluid Dynamics
 </div>
 <table class="card-other-values">
 <tbody><tr>
-<td>
-name
-</td>
-<td class="name">
-Miranda Horne
-</td>
-</tr>
-<tr>
 <td>
 Links
 </td>
@@ -883,26 +777,21 @@ Links
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="20" data-categories="">
+<div class="g-col-1" data-index="20" data-categories="Deep Learning,PINNS">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
 <img loading="lazy" data-src="../assets/img/portrait_placeholder.png" class="thumbnail-image card-img" style="height: 325px;">
 </p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-
+<h5 class="no-anchor card-title listing-title">
+Longwei Chen
+</h5>
+<div class="card-subtitle listing-subtitle">
+Planetary magnetic field modelling
 </div>
 <table class="card-other-values">
 <tbody><tr>
-<td>
-name
-</td>
-<td class="name">
-Longwei Chen
-</td>
-</tr>
-<tr>
 <td>
 Links
 </td>
@@ -915,26 +804,21 @@ Links
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="21" data-categories="">
+<div class="g-col-1" data-index="21" data-categories="Deep Learning,PINNS">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
 <img loading="lazy" data-src="../assets/img/leyuanwu.png" class="thumbnail-image card-img" style="height: 325px;">
 </p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-
+<h5 class="no-anchor card-title listing-title">
+Leyuan Wu
+</h5>
+<div class="card-subtitle listing-subtitle">
+Earth and planets’ gravity field modelling
 </div>
 <table class="card-other-values">
 <tbody><tr>
-<td>
-name
-</td>
-<td class="name">
-Leyuan Wu
-</td>
-</tr>
-<tr>
 <td>
 Links
 </td>
@@ -947,28 +831,21 @@ Links
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="22" data-categories="committee">
+<div class="g-col-1" data-index="22" data-categories="committee,Deep Learning,CNN">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
 <img loading="lazy" data-src="../assets/img/jacksmith.png" class="thumbnail-image card-img" style="height: 325px;">
 </p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('committee'); return false;">
-committee
-</div>
+<h5 class="no-anchor card-title listing-title">
+Jack Smith
+</h5>
+<div class="card-subtitle listing-subtitle">
+Semantic segmentation of masonry lined tunnel joints
 </div>
 <table class="card-other-values">
 <tbody><tr>
-<td>
-name
-</td>
-<td class="name">
-Jack Smith
-</td>
-</tr>
-<tr>
 <td>
 Links
 </td>
@@ -981,26 +858,21 @@ Links
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="23" data-categories="">
+<div class="g-col-1" data-index="23" data-categories="Deep Learning,PINNS">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
 <img loading="lazy" data-src="../assets/img/fergusshone.png" class="thumbnail-image card-img" style="height: 325px;">
 </p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-
+<h5 class="no-anchor card-title listing-title">
+Fergus Shone
+</h5>
+<div class="card-subtitle listing-subtitle">
+Haemodynamic flow super-resolution
 </div>
 <table class="card-other-values">
 <tbody><tr>
-<td>
-name
-</td>
-<td class="name">
-Fergus Shone
-</td>
-</tr>
-<tr>
 <td>
 Links
 </td>
@@ -1013,28 +885,21 @@ Links
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="24" data-categories="Deep Learning">
+<div class="g-col-1" data-index="24" data-categories="">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
 <img loading="lazy" data-src="../assets/img/alhanofalolyan.png" class="thumbnail-image card-img" style="height: 325px;">
 </p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Deep Learning'); return false;">
-Deep Learning
-</div>
+<h5 class="no-anchor card-title listing-title">
+Alhanof Alolyan
+</h5>
+<div class="card-subtitle listing-subtitle">
+Computer-aided design
 </div>
 <table class="card-other-values">
 <tbody><tr>
-<td>
-name
-</td>
-<td class="name">
-Alhanof Alolyan
-</td>
-</tr>
-<tr>
 <td>
 Links
 </td>
@@ -1047,26 +912,21 @@ Links
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="25" data-categories="">
+<div class="g-col-1" data-index="25" data-categories="Deep Learning,CNN">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
 <img loading="lazy" data-src="../assets/img/portrait_placeholder.png" class="thumbnail-image card-img" style="height: 325px;">
 </p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-
+<h5 class="no-anchor card-title listing-title">
+Claire Bartholomew
+</h5>
+<div class="card-subtitle listing-subtitle">
+Precipitation nowcasting
 </div>
 <table class="card-other-values">
 <tbody><tr>
-<td>
-name
-</td>
-<td class="name">
-Claire Bartholomew
-</td>
-</tr>
-<tr>
 <td>
 Links
 </td>
@@ -1079,26 +939,21 @@ Links
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="26" data-categories="">
+<div class="g-col-1" data-index="26" data-categories="Decision Trees">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
 <img loading="lazy" data-src="../assets/img/portrait_placeholder.png" class="thumbnail-image card-img" style="height: 325px;">
 </p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-
+<h5 class="no-anchor card-title listing-title">
+Jacob Connolly
+</h5>
+<div class="card-subtitle listing-subtitle">
+InSAR Time series
 </div>
 <table class="card-other-values">
 <tbody><tr>
-<td>
-name
-</td>
-<td class="name">
-Jacob Connolly
-</td>
-</tr>
-<tr>
 <td>
 Links
 </td>
@@ -1111,28 +966,21 @@ Links
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="27" data-categories="Deep Learning">
+<div class="g-col-1" data-index="27" data-categories="">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
 <img loading="lazy" data-src="../assets/img/andyhooper.png" class="thumbnail-image card-img" style="height: 325px;">
 </p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Deep Learning'); return false;">
-Deep Learning
-</div>
+<h5 class="no-anchor card-title listing-title">
+Andy Hooper
+</h5>
+<div class="card-subtitle listing-subtitle">
+Radar interferometry (insar)
 </div>
 <table class="card-other-values">
 <tbody><tr>
-<td>
-name
-</td>
-<td class="name">
-Andy Hooper
-</td>
-</tr>
-<tr>
 <td>
 Links
 </td>
@@ -1152,19 +1000,14 @@ Links
 <img loading="lazy" data-src="../assets/img/markrichardson.png" class="thumbnail-image card-img" style="height: 325px;">
 </p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-
+<h5 class="no-anchor card-title listing-title">
+Mark Richardson
+</h5>
+<div class="card-subtitle listing-subtitle">
+Met office um
 </div>
 <table class="card-other-values">
 <tbody><tr>
-<td>
-name
-</td>
-<td class="name">
-Mark Richardson
-</td>
-</tr>
-<tr>
 <td>
 Links
 </td>
@@ -1184,19 +1027,14 @@ Links
 <img loading="lazy" data-src="../assets/img/ericatwell.png" class="thumbnail-image card-img" style="height: 325px;">
 </p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-
+<h5 class="no-anchor card-title listing-title">
+Eric Atwell
+</h5>
+<div class="card-subtitle listing-subtitle">
+University teaching and assessment
 </div>
 <table class="card-other-values">
 <tbody><tr>
-<td>
-name
-</td>
-<td class="name">
-Eric Atwell
-</td>
-</tr>
-<tr>
 <td>
 Links
 </td>
@@ -1209,26 +1047,21 @@ Links
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="30" data-categories="">
+<div class="g-col-1" data-index="30" data-categories="Deep Learning">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
 <img loading="lazy" data-src="../assets/img/portrait_placeholder.png" class="thumbnail-image card-img" style="height: 325px;">
 </p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-
+<h5 class="no-anchor card-title listing-title">
+Simon Peatman
+</h5>
+<div class="card-subtitle listing-subtitle">
+Classification of convective weather systems
 </div>
 <table class="card-other-values">
 <tbody><tr>
-<td>
-name
-</td>
-<td class="name">
-Simon Peatman
-</td>
-</tr>
-<tr>
 <td>
 Links
 </td>
@@ -1248,19 +1081,14 @@ Links
 <img loading="lazy" data-src="../assets/img/mathewhenrickson.png" class="thumbnail-image card-img" style="height: 325px;">
 </p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-
+<h5 class="no-anchor card-title listing-title">
+Mathew Henrickson
+</h5>
+<div class="card-subtitle listing-subtitle">
+Text analysis of historic auction records
 </div>
 <table class="card-other-values">
 <tbody><tr>
-<td>
-name
-</td>
-<td class="name">
-Mathew Henrickson
-</td>
-</tr>
-<tr>
 <td>
 Links
 </td>
@@ -1280,19 +1108,14 @@ Links
 <img loading="lazy" data-src="../assets/img/andyturner.png" class="thumbnail-image card-img" style="height: 325px;">
 </p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-
+<h5 class="no-anchor card-title listing-title">
+Andy Turner
+</h5>
+<div class="card-subtitle listing-subtitle">
+Predicting spatial and temporal change
 </div>
 <table class="card-other-values">
 <tbody><tr>
-<td>
-name
-</td>
-<td class="name">
-Andy Turner
-</td>
-</tr>
-<tr>
 <td>
 Links
 </td>
@@ -1312,19 +1135,14 @@ Links
 <img loading="lazy" data-src="../assets/img/vineethkumarvellala.png" class="thumbnail-image card-img" style="height: 325px;">
 </p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-
+<h5 class="no-anchor card-title listing-title">
+Vineeth Kumar Vellala
+</h5>
+<div class="card-subtitle listing-subtitle">
+Synthetic medical data generation
 </div>
 <table class="card-other-values">
 <tbody><tr>
-<td>
-name
-</td>
-<td class="name">
-Vineeth Kumar Vellala
-</td>
-</tr>
-<tr>
 <td>
 Links
 </td>
@@ -1344,19 +1162,14 @@ Links
 <img loading="lazy" data-src="../assets/img/declanfinney.png" class="thumbnail-image card-img" style="height: 325px;">
 </p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-
+<h5 class="no-anchor card-title listing-title">
+Declan Finney
+</h5>
+<div class="card-subtitle listing-subtitle">
+Clouds
 </div>
 <table class="card-other-values">
 <tbody><tr>
-<td>
-name
-</td>
-<td class="name">
-Declan Finney
-</td>
-</tr>
-<tr>
 <td>
 Links
 </td>
@@ -1369,26 +1182,21 @@ Links
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="35" data-categories="">
+<div class="g-col-1" data-index="35" data-categories="Deep Learning,PINNS">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
 <img loading="lazy" data-src="../assets/img/yutaroshigemitsu.png" class="thumbnail-image card-img" style="height: 325px;">
 </p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-
+<h5 class="no-anchor card-title listing-title">
+Yutaro Shigemitsu
+</h5>
+<div class="card-subtitle listing-subtitle">
+Monitoring volcano
 </div>
 <table class="card-other-values">
 <tbody><tr>
-<td>
-name
-</td>
-<td class="name">
-Yutaro Shigemitsu
-</td>
-</tr>
-<tr>
 <td>
 Links
 </td>
@@ -1408,19 +1216,14 @@ Links
 <img loading="lazy" data-src="../assets/img/portrait_placeholder.png" class="thumbnail-image card-img" style="height: 325px;">
 </p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-
+<h5 class="no-anchor card-title listing-title">
+Jillian Schacher
+</h5>
+<div class="card-subtitle listing-subtitle">
+Marine spatial planning
 </div>
 <table class="card-other-values">
 <tbody><tr>
-<td>
-name
-</td>
-<td class="name">
-Jillian Schacher
-</td>
-</tr>
-<tr>
 <td>
 Links
 </td>
@@ -1433,26 +1236,21 @@ Links
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="37" data-categories="">
+<div class="g-col-1" data-index="37" data-categories="Decision Trees,PINNS">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
 <img loading="lazy" data-src="../assets/img/drpeymanbabakhani.png" class="thumbnail-image card-img" style="height: 325px;">
 </p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-
+<h5 class="no-anchor card-title listing-title">
+Dr Peyman Babakhani
+</h5>
+<div class="card-subtitle listing-subtitle">
+Global carbon cycling
 </div>
 <table class="card-other-values">
 <tbody><tr>
-<td>
-name
-</td>
-<td class="name">
-Dr Peyman Babakhani
-</td>
-</tr>
-<tr>
 <td>
 Links
 </td>
@@ -1465,26 +1263,21 @@ Links
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="38" data-categories="">
+<div class="g-col-1" data-index="38" data-categories="Deep Learning,CNN">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
 <img loading="lazy" data-src="../assets/img/zoehancox.png" class="thumbnail-image card-img" style="height: 325px;">
 </p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-
+<h5 class="no-anchor card-title listing-title">
+Zoe Hancox
+</h5>
+<div class="card-subtitle listing-subtitle">
+Health outcome prediction
 </div>
 <table class="card-other-values">
 <tbody><tr>
-<td>
-name
-</td>
-<td class="name">
-Zoe Hancox
-</td>
-</tr>
-<tr>
 <td>
 Links
 </td>
@@ -1504,19 +1297,14 @@ Links
 <img loading="lazy" data-src="../assets/img/portrait_placeholder.png" class="thumbnail-image card-img" style="height: 325px;">
 </p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-
+<h5 class="no-anchor card-title listing-title">
+Gyanateet Dutta
+</h5>
+<div class="card-subtitle listing-subtitle">
+Synthetic medical data generation.
 </div>
 <table class="card-other-values">
 <tbody><tr>
-<td>
-name
-</td>
-<td class="name">
-Gyanateet Dutta
-</td>
-</tr>
-<tr>
 <td>
 Links
 </td>
@@ -1529,26 +1317,21 @@ Links
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="40" data-categories="">
+<div class="g-col-1" data-index="40" data-categories="Deep Learning">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
 <img loading="lazy" data-src="../assets/img/portrait_placeholder.png" class="thumbnail-image card-img" style="height: 325px;">
 </p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-
+<h5 class="no-anchor card-title listing-title">
+Donald Cummins
+</h5>
+<div class="card-subtitle listing-subtitle">
+Turbulence parametrizations
 </div>
 <table class="card-other-values">
 <tbody><tr>
-<td>
-name
-</td>
-<td class="name">
-Donald Cummins
-</td>
-</tr>
-<tr>
 <td>
 Links
 </td>
@@ -1561,26 +1344,21 @@ Links
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="41" data-categories="">
+<div class="g-col-1" data-index="41" data-categories="Deep Learning">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
 <img loading="lazy" data-src="../assets/img/alistaircurd.jpg" class="thumbnail-image card-img" style="height: 325px;">
 </p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-
+<h5 class="no-anchor card-title listing-title">
+Alistair Curd
+</h5>
+<div class="card-subtitle listing-subtitle">
+Biomedical fluorescence microscopy
 </div>
 <table class="card-other-values">
 <tbody><tr>
-<td>
-name
-</td>
-<td class="name">
-Alistair Curd
-</td>
-</tr>
-<tr>
 <td>
 Links
 </td>

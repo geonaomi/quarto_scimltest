@@ -12,7 +12,7 @@ listing:
   type: grid
   sort: asc
   filter-ui: True
-  fields: [image,categories, name,links]
+  fields: [image,title,subtitle, links]
   field-display-names: 
       links: Links
   grid-item-align: center
