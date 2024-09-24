@@ -1,6 +1,6 @@
 - title: Leif Denby
   subtitle: meso-scale cloud organisation
-  image: ../assets/img/leifdenby.jpeg
+  image: img/leifdenby.jpeg
   categories:
   - Deep Learning
   - CNN
@@ -10,7 +10,7 @@
     btn-secondary">Website</a>
 - title: Chetan Deva
   subtitle: Modelling Plant Behaviour across G*E
-  image: ../assets/img/chetandeva.jpg
+  image: img/chetandeva.jpg
   categories:
   - Decision Trees
   links:
@@ -18,7 +18,7 @@
     btn-secondary">Website</a>
 - title: Samuel Bancroft
   subtitle: crop type classification
-  image: ../assets/img/samuelbancroft.jpg
+  image: img/samuelbancroft.jpg
   categories:
   - Deep Learning
   - CNN
@@ -28,7 +28,7 @@
     btn-secondary">Website</a>
 - title: Jonathan Coney
   subtitle: segmentation of atmospheric gravity waves
-  image: ../assets/img/jonathanconey.jpg
+  image: img/jonathanconey.jpg
   categories:
   - Deep Learning
   - CNN
@@ -38,7 +38,7 @@
     btn-secondary">Website</a>
 - title: Trystan Surawy-Stepney
   subtitle: Glacier damage identification
-  image: ../assets/img/trystansurawy-stepney.jpg
+  image: img/trystansurawy-stepney.jpg
   categories:
   - Deep Learning
   - CNN
@@ -48,7 +48,7 @@
     btn-secondary">Website</a>
 - title: Ben Wallis
   subtitle: Tidewater glacier dynamics
-  image: ../assets/img/portrait_placeholder.png
+  image: portrait_placeholder.png
   categories:
   - Deep Learning
   - CNN
@@ -58,7 +58,7 @@
     btn-secondary">Website</a>
 - title: Joey Smith
   subtitle: Storm tracking and initiation prediction
-  image: ../assets/img/joeysmith.png
+  image: img/joeysmith.png
   categories:
   - Decision Trees
   links:
@@ -66,7 +66,7 @@
   - <a href=None class="btn btn-secondary">Website</a>
 - title: Maria Luisa Taccari
   subtitle: Groundwater prediction
-  image: ../assets/img/marialuisataccari.jpg
+  image: img/marialuisataccari.jpg
   categories:
   - committee
   - Deep Learning
@@ -78,7 +78,7 @@
     btn-secondary">Website</a>
 - title: Calum S. Skene
   subtitle: Geophysical and astrophysical turbulence
-  image: ../assets/img/portrait_placeholder.png
+  image: portrait_placeholder.png
   categories:
   - Deep Learning
   links:
@@ -87,7 +87,7 @@
     class="btn btn-secondary">Website</a>
 - title: Dody Dharma
   subtitle: Deformbale Solid and Fluid Simulation
-  image: ../assets/img/dodydharma.jpg
+  image: img/dodydharma.jpg
   categories:
   - Deep Learning
   - CNN
@@ -96,7 +96,7 @@
   - <a href=https://eps.leeds.ac.uk/computing/pgr/7644/dody-dharma class="btn btn-secondary">Website</a>
 - title: Naomi Shakespeare-Rees
   subtitle: Geomagnetism
-  image: ../assets/img/naomishakespeare-rees.jpg
+  image: img/naomishakespeare-rees.jpg
   categories:
   - committee
   - Deep Learning
@@ -106,7 +106,7 @@
   - <a href=https://github.com/geonaomi class="btn btn-primary">Github</a>
 - title: Shenghao Qiu
   subtitle: Parallel and Distributed Deep Learning
-  image: ../assets/img/portrait_placeholder.png
+  image: portrait_placeholder.png
   categories:
   - Deep Learning
   - CNN
@@ -115,7 +115,7 @@
   - <a href=https://eps.leeds.ac.uk/computing/pgr/8738/shenghao-qiu class="btn btn-secondary">Website</a>
 - title: Shu Zhang
   subtitle: Tropospheric ozone forcast
-  image: ../assets/img/shuzhang.jpg
+  image: img/shuzhang.jpg
   categories:
   - Decision Trees
   links:
@@ -123,7 +123,7 @@
   - <a href=None class="btn btn-secondary">Website</a>
 - title: Phil Livermore
   subtitle: Reconstruction of earth/planetary magnetic fields from sparse data
-  image: ../assets/img/phillivermore.png
+  image: img/phillivermore.png
   categories:
   - Deep Learning
   - PINNS
@@ -133,7 +133,7 @@
     class="btn btn-secondary">Website</a>
 - title: Jakub Lewandowski
   subtitle: Weather nowcasting
-  image: ../assets/img/jakublewandowski.png
+  image: img/jakublewandowski.png
   categories:
   - Deep Learning
   - PINNS
@@ -143,7 +143,7 @@
     btn-secondary">Website</a>
 - title: Joe Gallear
   subtitle: Crop yield estimation
-  image: ../assets/img/joegallear.jpg
+  image: img/joegallear.jpg
   categories:
   - Deep Learning
   - Decision Trees
@@ -152,7 +152,7 @@
   - <a href=https://environment.leeds.ac.uk/see/pgr/2584/joe-gallear class="btn btn-secondary">Website</a>
 - title: Sam Llanwarne
   subtitle: very large histology tissue image, preprocessing and classification
-  image: ../assets/img/portrait_placeholder.png
+  image: portrait_placeholder.png
   categories:
   - Deep Learning
   - CNN
@@ -161,7 +161,7 @@
   - <a href=https://ai-medical.leeds.ac.uk/home/student-profiles/ class="btn btn-secondary">Website</a>
 - title: Andy Nowacki
   subtitle: Detection and location of earthquakes and icequakes
-  image: ../assets/img/portrait_placeholder.png
+  image: portrait_placeholder.png
   categories:
   - Deep Learning
   links:
@@ -170,7 +170,7 @@
     btn-secondary">Website</a>
 - title: John Chong Zhang
   subtitle: mineral system exploration
-  image: ../assets/img/portrait_placeholder.png
+  image: portrait_placeholder.png
   categories:
   - Deep Learning
   links:
@@ -178,7 +178,7 @@
   - <a href=https://www.researchgate.net/profile/Chong-Zhang-55 class="btn btn-secondary">Website</a>
 - title: Miranda Horne
   subtitle: Computational Fluid Dynamics
-  image: ../assets/img/mirandahorne.png
+  image: img/mirandahorne.png
   categories:
   - committee
   - Deep Learning
@@ -187,7 +187,7 @@
   - <a href=https://vcg.leeds.ac.uk/profiles/miranda-horne/ class="btn btn-secondary">Website</a>
 - title: Longwei Chen
   subtitle: Planetary magnetic field modelling
-  image: ../assets/img/portrait_placeholder.png
+  image: portrait_placeholder.png
   categories:
   - Deep Learning
   - PINNS
@@ -197,7 +197,7 @@
     btn-secondary">Website</a>
 - title: Leyuan Wu
   subtitle: Earth and planets' gravity field modelling
-  image: ../assets/img/leyuanwu.png
+  image: img/leyuanwu.png
   categories:
   - Deep Learning
   - PINNS
@@ -206,7 +206,7 @@
   - <a href=https://environment.leeds.ac.uk/staff/11344/dr-leyuan-wu class="btn btn-secondary">Website</a>
 - title: Jack Smith
   subtitle: Semantic segmentation of masonry lined tunnel joints
-  image: ../assets/img/jacksmith.png
+  image: img/jacksmith.png
   categories:
   - committee
   - Deep Learning
@@ -216,7 +216,7 @@
   - <a href=https://environment.leeds.ac.uk/see/pgr/9939/jack-smith class="btn btn-secondary">Website</a>
 - title: Fergus Shone
   subtitle: Haemodynamic flow super-resolution
-  image: ../assets/img/fergusshone.png
+  image: img/fergusshone.png
   categories:
   - Deep Learning
   - PINNS
@@ -225,14 +225,14 @@
   - <a href=https://eps.leeds.ac.uk/computing/pgr/7701/fergus-shone class="btn btn-secondary">Website</a>
 - title: Alhanof Alolyan
   subtitle: Computer-aided design
-  image: ../assets/img/alhanofalolyan.png
+  image: img/alhanofalolyan.png
   categories: []
   links:
   - <a href=https://github.com/scasalo class="btn btn-primary">Github</a>
   - <a href=https://vcg.leeds.ac.uk/profiles/alhanof-alolyan/ class="btn btn-secondary">Website</a>
 - title: Claire Bartholomew
   subtitle: Precipitation nowcasting
-  image: ../assets/img/portrait_placeholder.png
+  image: portrait_placeholder.png
   categories:
   - Deep Learning
   - CNN
@@ -241,7 +241,7 @@
   - <a href=None class="btn btn-secondary">Website</a>
 - title: Jacob Connolly
   subtitle: InSAR Time series
-  image: ../assets/img/portrait_placeholder.png
+  image: portrait_placeholder.png
   categories:
   - Decision Trees
   links:
@@ -250,7 +250,7 @@
     btn-secondary">Website</a>
 - title: Andy Hooper
   subtitle: Radar interferometry (insar)
-  image: ../assets/img/andyhooper.png
+  image: img/andyhooper.png
   categories: []
   links:
   - <a href=https://github.com/earahoo class="btn btn-primary">Github</a>
@@ -258,21 +258,21 @@
     btn-secondary">Website</a>
 - title: Mark Richardson
   subtitle: Met office um
-  image: ../assets/img/markrichardson.png
+  image: img/markrichardson.png
   categories: []
   links:
   - <a href=https://github.com/MarkUoLeeds class="btn btn-primary">Github</a>
   - <a href=https://www.cemac.leeds.ac.uk class="btn btn-secondary">Website</a>
 - title: Eric Atwell
   subtitle: University teaching and assessment
-  image: ../assets/img/ericatwell.png
+  image: img/ericatwell.png
   categories: []
   links:
   - <a href=https://github.com/csc6ea class="btn btn-primary">Github</a>
   - <a href=http://www.comp.leeds.ac.uk/eric class="btn btn-secondary">Website</a>
 - title: Simon Peatman
   subtitle: Classification of convective weather systems
-  image: ../assets/img/portrait_placeholder.png
+  image: portrait_placeholder.png
   categories:
   - Deep Learning
   links:
@@ -280,7 +280,7 @@
   - <a href=http://www.simonpeatman.me.uk class="btn btn-secondary">Website</a>
 - title: Mathew Henrickson
   subtitle: Text analysis of historic auction records
-  image: ../assets/img/mathewhenrickson.png
+  image: img/mathewhenrickson.png
   categories: []
   links:
   - <a href=https://github.com/mh60385 class="btn btn-primary">Github</a>
@@ -288,21 +288,21 @@
     btn-secondary">Website</a>
 - title: Andy Turner
   subtitle: Predicting spatial and temporal change
-  image: ../assets/img/andyturner.png
+  image: img/andyturner.png
   categories: []
   links:
   - <a href=https://github.com/agdturner class="btn btn-primary">Github</a>
   - <a href=https://agdturner.github.io class="btn btn-secondary">Website</a>
 - title: Vineeth Kumar Vellala
   subtitle: Synthetic medical data generation
-  image: ../assets/img/vineethkumarvellala.png
+  image: img/vineethkumarvellala.png
   categories: []
   links:
   - <a href=https://github.com/VellalaVineethKumar class="btn btn-primary">Github</a>
   - <a href=https://www.linkedin.com/in/vvineethkumar class="btn btn-secondary">Website</a>
 - title: Declan Finney
   subtitle: Clouds
-  image: ../assets/img/declanfinney.png
+  image: img/declanfinney.png
   categories: []
   links:
   - <a href=https://github.com/DLFinney class="btn btn-primary">Github</a>
@@ -310,7 +310,7 @@
     class="btn btn-secondary">Website</a>
 - title: Yutaro Shigemitsu
   subtitle: Monitoring volcano
-  image: ../assets/img/yutaroshigemitsu.png
+  image: img/yutaroshigemitsu.png
   categories:
   - Deep Learning
   - PINNS
@@ -319,7 +319,7 @@
   - <a href=https://earth.kumst.kyoto-u.ac.jp/en/ class="btn btn-secondary">Website</a>
 - title: Jillian Schacher
   subtitle: Marine spatial planning
-  image: ../assets/img/portrait_placeholder.png
+  image: portrait_placeholder.png
   categories: []
   links:
   - <a href=https://github.com/jschacher1 class="btn btn-primary">Github</a>
@@ -327,7 +327,7 @@
     btn-secondary">Website</a>
 - title: Dr Peyman Babakhani
   subtitle: Global carbon cycling
-  image: ../assets/img/drpeymanbabakhani.png
+  image: img/drpeymanbabakhani.png
   categories:
   - Decision Trees
   - PINNS
@@ -337,7 +337,7 @@
     btn-secondary">Website</a>
 - title: Zoe Hancox
   subtitle: Health outcome prediction
-  image: ../assets/img/zoehancox.png
+  image: img/zoehancox.png
   categories:
   - Deep Learning
   - CNN
@@ -346,14 +346,14 @@
   - <a href=https://zoehancox.github.io/ class="btn btn-secondary">Website</a>
 - title: Gyanateet Dutta
   subtitle: Synthetic medical data generation.
-  image: ../assets/img/portrait_placeholder.png
+  image: portrait_placeholder.png
   categories: []
   links:
   - <a href=https://github.com/Ryukijano class="btn btn-primary">Github</a>
   - <a href=https://ryukijano.github.io class="btn btn-secondary">Website</a>
 - title: Donald Cummins
   subtitle: Turbulence parametrizations
-  image: ../assets/img/portrait_placeholder.png
+  image: portrait_placeholder.png
   categories:
   - Deep Learning
   links:
@@ -362,7 +362,7 @@
     btn-secondary">Website</a>
 - title: Alistair Curd
   subtitle: Biomedical fluorescence microscopy
-  image: ../assets/img/alistaircurd.jpg
+  image: img/alistaircurd.jpg
   categories:
   - Deep Learning
   links:

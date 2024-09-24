@@ -1,0 +1,33 @@
+---
+title: Andy Hooper
+subtitle: Radar interferometry (insar)
+image: andyhooper.png
+categories: []
+links: <a href=https://github.com/earahoo class="btn btn-primary">Github</a><a href=https://environment.leeds.ac.uk/staff/1334/professor-andy-hooper
+  class="btn btn-secondary">Website</a>
+techniques:
+- Ica
+- deep learning
+applications:
+- Radar interferometry (insar)
+- volcano deformation
+- tectonic deformation
+about:
+  id: person-profile
+  template: jolla
+---
+   
+:::{#person-profile}
+:::
+   
+##
+##Techniques
+   
+:::{#Techniques}
+:::
+   
+##
+##Research area
+   
+:::{#applications}
+:::

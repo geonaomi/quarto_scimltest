@@ -1,0 +1,36 @@
+---
+title: Dr Peyman Babakhani
+subtitle: Global carbon cycling
+image: drpeymanbabakhani.png
+categories:
+- Decision Trees
+- PINNS
+links: <a href=https://github.com/None class="btn btn-primary">Github</a><a href=https://environment.leeds.ac.uk/see/staff/12072/dr-peyman-babakhani
+  class="btn btn-secondary">Website</a>
+techniques:
+- Deep learning
+- physics-informed ai
+- random forest
+applications:
+- Global carbon cycling
+- environmental contaminant transport
+- groundwater modelling
+about:
+  id: person-profile
+  template: jolla
+---
+   
+:::{#person-profile}
+:::
+   
+##
+##Techniques
+   
+:::{#Techniques}
+:::
+   
+##
+##Research area
+   
+:::{#applications}
+:::

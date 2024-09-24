@@ -1,0 +1,36 @@
+---
+title: Naomi Shakespeare-Rees
+subtitle: Geomagnetism
+image: naomishakespeare-rees.jpg
+categories:
+- committee
+- Deep Learning
+- CNN
+- PINNS
+links: <a href=https://github.com/geonaomi class="btn btn-primary">Github</a>
+techniques:
+- PINNs
+- Convolutional Networks
+- Autoencoders
+applications:
+- Geomagnetism
+- Fluid Flows
+about:
+  id: person-profile
+  template: jolla
+---
+   
+:::{#person-profile}
+:::
+   
+##
+##Techniques
+   
+:::{#Techniques}
+:::
+   
+##
+##Research area
+   
+:::{#applications}
+:::

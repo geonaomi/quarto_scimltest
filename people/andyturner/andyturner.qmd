@@ -1,0 +1,33 @@
+---
+title: Andy Turner
+subtitle: Predicting spatial and temporal change
+image: andyturner.png
+categories: []
+links: <a href=https://github.com/agdturner class="btn btn-primary">Github</a><a href=https://agdturner.github.io
+  class="btn btn-secondary">Website</a>
+techniques:
+- Multi-layered Perceptron
+- Fuzzy Inference
+applications:
+- Predicting spatial and temporal change
+- Forecasting climate change impacts
+- River level forecating
+about:
+  id: person-profile
+  template: jolla
+---
+   
+:::{#person-profile}
+:::
+   
+##
+##Techniques
+   
+:::{#Techniques}
+:::
+   
+##
+##Research area
+   
+:::{#applications}
+:::

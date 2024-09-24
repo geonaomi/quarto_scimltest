@@ -4,13 +4,13 @@ title: "About Sciml Leeds"
 image: ../images/logo.png
 listing: 
   id: Commitee
-  contents: [../assets/people_processed.yml]
+  contents: "../people/*/**.qmd"
   type: grid
   sort: false
   sort-ui: false
-  fields: [image, name,links]
+  fields: [image, title,links]
   field-display-names: 
-      title: Title
+      links: 'links:'
 
   grid-item-align: center
   image-height: 425px

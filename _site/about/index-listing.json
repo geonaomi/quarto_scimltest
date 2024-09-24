@@ -1,4 +1,9 @@
 {
   "listing": "/about/index.html",
-  "items": []
+  "items": [
+    "/people/jacksmith/jacksmith.html",
+    "/people/marialuisataccari/marialuisataccari.html",
+    "/people/mirandahorne/mirandahorne.html",
+    "/people/naomishakespeare-rees/naomishakespeare-rees.html"
+  ]
 }

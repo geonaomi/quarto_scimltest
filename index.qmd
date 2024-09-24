@@ -1,18 +1,17 @@
 ---
 title: "sciml_quarto_test"
-resources:
-  - "assets/people.yml"
+
 page-layout: full
 title-block-banner: true
 image: images/logo.png
 
 listing: 
   id: listing-people
-  contents: [../assets/people_processed.yml]
+  contents: "people/*/**.qmd"
   type: grid
-  sort: asc
+  sort: "title"
   filter-ui: True
-  fields: [image,title,subtitle, links]
+  fields: [image,title,subtitle, links, categories]
   field-display-names: 
       links: Links
   grid-item-align: center

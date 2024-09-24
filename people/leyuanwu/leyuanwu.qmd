@@ -1,0 +1,32 @@
+---
+title: Leyuan Wu
+subtitle: Earth and planets' gravity field modelling
+image: leyuanwu.png
+categories:
+- Deep Learning
+- PINNS
+links: <a href=https://github.com/LeyuanWu class="btn btn-primary">Github</a><a href=https://environment.leeds.ac.uk/staff/11344/dr-leyuan-wu
+  class="btn btn-secondary">Website</a>
+techniques:
+- Physics informed neural networks
+applications:
+- Earth and planets' gravity field modelling
+about:
+  id: person-profile
+  template: jolla
+---
+   
+:::{#person-profile}
+:::
+   
+##
+##Techniques
+   
+:::{#Techniques}
+:::
+   
+##
+##Research area
+   
+:::{#applications}
+:::
