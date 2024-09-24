@@ -1,6 +1,6 @@
 ---
 title: Naomi Shakespeare-Rees
-subtitle: Geomagnetism
+description: Geomagnetism
 image: naomishakespeare-rees.jpg
 categories:
 - committee
@@ -18,6 +18,10 @@ applications:
 about:
   id: person-profile
   template: jolla
+  links:
+    icon: fab fa-github
+    text: github
+    href: geonaomi
 ---
    
 :::{#person-profile}
@@ -26,11 +30,14 @@ about:
 ##
 ##Techniques
    
-:::{#Techniques}
-:::
+- PINNs
+- Convolutional Networks
+- Autoencoders
    
 ##
 ##Research area
+##
+##Applications
    
-:::{#applications}
-:::
+- Geomagnetism
+- Fluid Flows

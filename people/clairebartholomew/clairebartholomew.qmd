@@ -1,6 +1,6 @@
 ---
 title: Claire Bartholomew
-subtitle: Precipitation nowcasting
+description: Precipitation nowcasting
 image: portrait_placeholder.png
 categories:
 - Deep Learning
@@ -16,6 +16,10 @@ applications:
 about:
   id: person-profile
   template: jolla
+  links:
+    icon: fab fa-github
+    text: github
+    href: claire-bartholomew
 ---
    
 :::{#person-profile}
@@ -24,11 +28,13 @@ about:
 ##
 ##Techniques
    
-:::{#Techniques}
-:::
+- Supervised learning
+- CNNs
    
 ##
 ##Research area
+##
+##Applications
    
-:::{#applications}
-:::
+- Precipitation nowcasting
+- Convection / thunderstorm prediction

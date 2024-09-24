@@ -1,6 +1,6 @@
 ---
 title: Miranda Horne
-subtitle: Computational Fluid Dynamics
+description: Computational Fluid Dynamics
 image: mirandahorne.png
 categories:
 - committee
@@ -17,6 +17,10 @@ applications:
 about:
   id: person-profile
   template: jolla
+  links:
+    icon: fab fa-github
+    text: github
+    href: MirandaJSHorne
 ---
    
 :::{#person-profile}
@@ -25,11 +29,14 @@ about:
 ##
 ##Techniques
    
-:::{#Techniques}
-:::
+- Operator Learning
+- Physics Constrained Neural Networks
    
 ##
 ##Research area
+##
+##Applications
    
-:::{#applications}
-:::
+- Computational Fluid Dynamics
+- Inverse Modelling
+- Interior Air Control

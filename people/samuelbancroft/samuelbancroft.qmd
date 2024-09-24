@@ -1,6 +1,6 @@
 ---
 title: Samuel Bancroft
-subtitle: crop type classification
+description: crop type classification
 image: samuelbancroft.jpg
 categories:
 - Deep Learning
@@ -17,6 +17,10 @@ applications:
 about:
   id: person-profile
   template: jolla
+  links:
+    icon: fab fa-github
+    text: github
+    href: spiruel
 ---
    
 :::{#person-profile}
@@ -25,11 +29,14 @@ about:
 ##
 ##Techniques
    
-:::{#Techniques}
-:::
+- Semi-supervised/self-supervised learning
+- convolutional networks
    
 ##
 ##Research area
+##
+##Applications
    
-:::{#applications}
-:::
+- crop type classification
+- satellite time series classification
+- crop yield estimation

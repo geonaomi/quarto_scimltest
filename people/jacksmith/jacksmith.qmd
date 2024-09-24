@@ -1,6 +1,6 @@
 ---
 title: Jack Smith
-subtitle: Semantic segmentation of masonry lined tunnel joints
+description: Semantic segmentation of masonry lined tunnel joints
 image: jacksmith.png
 categories:
 - committee
@@ -18,6 +18,10 @@ applications:
 about:
   id: person-profile
   template: jolla
+  links:
+    icon: fab fa-github
+    text: github
+    href: Mysterymanreturns
 ---
    
 :::{#person-profile}
@@ -26,11 +30,14 @@ about:
 ##
 ##Techniques
    
-:::{#Techniques}
-:::
+- Cnns
+- synthetic data
+- gans
    
 ##
 ##Research area
+##
+##Applications
    
-:::{#applications}
-:::
+- Semantic segmentation of masonry lined tunnel joints
+- structural condition assessment

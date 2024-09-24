@@ -1,6 +1,6 @@
 ---
 title: Eric Atwell
-subtitle: University teaching and assessment
+description: University teaching and assessment
 image: ericatwell.png
 categories: []
 links: <a href=https://github.com/csc6ea class="btn btn-primary">Github</a><a href=http://www.comp.leeds.ac.uk/eric
@@ -16,6 +16,10 @@ applications:
 about:
   id: person-profile
   template: jolla
+  links:
+    icon: fab fa-github
+    text: github
+    href: csc6ea
 ---
    
 :::{#person-profile}
@@ -24,11 +28,15 @@ about:
 ##
 ##Techniques
    
-:::{#Techniques}
-:::
+- Text analytics
+- sketchengine
+- chatbots
    
 ##
 ##Research area
+##
+##Applications
    
-:::{#applications}
-:::
+- University teaching and assessment
+- understanding quran and hadith
+- detecting bias and fake news

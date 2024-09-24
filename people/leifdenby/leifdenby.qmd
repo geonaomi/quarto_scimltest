@@ -1,6 +1,6 @@
 ---
 title: Leif Denby
-subtitle: meso-scale cloud organisation
+description: meso-scale cloud organisation
 image: leifdenby.jpeg
 categories:
 - Deep Learning
@@ -16,6 +16,10 @@ applications:
 about:
   id: person-profile
   template: jolla
+  links:
+    icon: fab fa-github
+    text: github
+    href: leifdenby
 ---
    
 :::{#person-profile}
@@ -24,11 +28,13 @@ about:
 ##
 ##Techniques
    
-:::{#Techniques}
-:::
+- Self-supervised/unsupervised learning
+- convolutional networks
    
 ##
 ##Research area
+##
+##Applications
    
-:::{#applications}
-:::
+- meso-scale cloud organisation
+- denoising of LIDAR water vapour observations

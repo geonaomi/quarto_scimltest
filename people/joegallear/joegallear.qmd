@@ -1,6 +1,6 @@
 ---
 title: Joe Gallear
-subtitle: Crop yield estimation
+description: Crop yield estimation
 image: joegallear.jpg
 categories:
 - Deep Learning
@@ -18,6 +18,10 @@ applications:
 about:
   id: person-profile
   template: jolla
+  links:
+    icon: fab fa-github
+    text: github
+    href: eejg
 ---
    
 :::{#person-profile}
@@ -26,11 +30,15 @@ about:
 ##
 ##Techniques
    
-:::{#Techniques}
-:::
+- Supervised learning
+- neural networks
+- random forests
    
 ##
 ##Research area
+##
+##Applications
    
-:::{#applications}
-:::
+- Crop yield estimation
+- impacts of climate variability
+- effects of extreme events

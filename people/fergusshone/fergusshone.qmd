@@ -1,6 +1,6 @@
 ---
 title: Fergus Shone
-subtitle: Haemodynamic flow super-resolution
+description: Haemodynamic flow super-resolution
 image: fergusshone.png
 categories:
 - Deep Learning
@@ -17,6 +17,10 @@ applications:
 about:
   id: person-profile
   template: jolla
+  links:
+    icon: fab fa-github
+    text: github
+    href: fergusshone
 ---
    
 :::{#person-profile}
@@ -25,11 +29,14 @@ about:
 ##
 ##Techniques
    
-:::{#Techniques}
-:::
+- Informed machine learning
+- Physics-informed neural networks
    
 ##
 ##Research area
+##
+##Applications
    
-:::{#applications}
-:::
+- Haemodynamic flow super-resolution
+- 4D-flow MRI
+- Left ventricular remodelling

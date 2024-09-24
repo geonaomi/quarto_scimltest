@@ -1,6 +1,6 @@
 ---
 title: Dr Peyman Babakhani
-subtitle: Global carbon cycling
+description: Global carbon cycling
 image: drpeymanbabakhani.png
 categories:
 - Decision Trees
@@ -18,6 +18,10 @@ applications:
 about:
   id: person-profile
   template: jolla
+  links:
+    icon: fab fa-github
+    text: github
+    href: null
 ---
    
 :::{#person-profile}
@@ -26,11 +30,15 @@ about:
 ##
 ##Techniques
    
-:::{#Techniques}
-:::
+- Deep learning
+- physics-informed ai
+- random forest
    
 ##
 ##Research area
+##
+##Applications
    
-:::{#applications}
-:::
+- Global carbon cycling
+- environmental contaminant transport
+- groundwater modelling

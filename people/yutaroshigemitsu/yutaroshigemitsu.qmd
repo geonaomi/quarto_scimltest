@@ -1,6 +1,6 @@
 ---
 title: Yutaro Shigemitsu
-subtitle: Monitoring volcano
+description: Monitoring volcano
 image: yutaroshigemitsu.png
 categories:
 - Deep Learning
@@ -17,6 +17,10 @@ applications:
 about:
   id: person-profile
   template: jolla
+  links:
+    icon: fab fa-github
+    text: github
+    href: shigemitsu-yutaro
 ---
    
 :::{#person-profile}
@@ -25,11 +29,14 @@ about:
 ##
 ##Techniques
    
-:::{#Techniques}
-:::
+- Interferometric sar (insar)
+- drone sar
+- pinn (under training)
    
 ##
 ##Research area
+##
+##Applications
    
-:::{#applications}
-:::
+- Monitoring volcano
+- monitoring seasonal deformation changes

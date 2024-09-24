@@ -1,6 +1,6 @@
 ---
 title: Jakub Lewandowski
-subtitle: Weather nowcasting
+description: Weather nowcasting
 image: jakublewandowski.png
 categories:
 - Deep Learning
@@ -16,6 +16,10 @@ applications:
 about:
   id: person-profile
   template: jolla
+  links:
+    icon: fab fa-github
+    text: github
+    href: Quba1
 ---
    
 :::{#person-profile}
@@ -24,11 +28,13 @@ about:
 ##
 ##Techniques
    
-:::{#Techniques}
-:::
+- Supervised learning
+- physics-informed neural networks
    
 ##
 ##Research area
+##
+##Applications
    
-:::{#applications}
-:::
+- Weather nowcasting
+- parametrization of atmospheric processes

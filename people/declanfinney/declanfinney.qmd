@@ -1,6 +1,6 @@
 ---
 title: Declan Finney
-subtitle: Clouds
+description: Clouds
 image: declanfinney.png
 categories: []
 links: <a href=https://github.com/DLFinney class="btn btn-primary">Github</a><a href=https://environment.leeds.ac.uk/institute-climate-atmospheric-science/staff/1261/dr-declan-finney
@@ -14,6 +14,10 @@ applications:
 about:
   id: person-profile
   template: jolla
+  links:
+    icon: fab fa-github
+    text: github
+    href: DLFinney
 ---
    
 :::{#person-profile}
@@ -22,11 +26,13 @@ about:
 ##
 ##Techniques
    
-:::{#Techniques}
-:::
+- Chatgpt :p
    
 ##
 ##Research area
+##
+##Applications
    
-:::{#applications}
-:::
+- Clouds
+- radiation
+- climate change

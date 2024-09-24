@@ -1,6 +1,6 @@
 ---
 title: Shu Zhang
-subtitle: Tropospheric ozone forcast
+description: Tropospheric ozone forcast
 image: shuzhang.jpg
 categories:
 - Decision Trees
@@ -17,6 +17,10 @@ applications:
 about:
   id: person-profile
   template: jolla
+  links:
+    icon: fab fa-github
+    text: github
+    href: ShrutiZhang
 ---
    
 :::{#person-profile}
@@ -25,11 +29,15 @@ about:
 ##
 ##Techniques
    
-:::{#Techniques}
-:::
+- Random Forests
+- XGBoost
+- LSTM
    
 ##
 ##Research area
+##
+##Applications
    
-:::{#applications}
-:::
+- Tropospheric ozone forcast
+- Weather classification
+- Time series decomposition of air pollutants

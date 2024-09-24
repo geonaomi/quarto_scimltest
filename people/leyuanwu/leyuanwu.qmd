@@ -1,6 +1,6 @@
 ---
 title: Leyuan Wu
-subtitle: Earth and planets' gravity field modelling
+description: Earth and planets' gravity field modelling
 image: leyuanwu.png
 categories:
 - Deep Learning
@@ -14,6 +14,10 @@ applications:
 about:
   id: person-profile
   template: jolla
+  links:
+    icon: fab fa-github
+    text: github
+    href: LeyuanWu
 ---
    
 :::{#person-profile}
@@ -22,11 +26,11 @@ about:
 ##
 ##Techniques
    
-:::{#Techniques}
-:::
+- Physics informed neural networks
    
 ##
 ##Research area
+##
+##Applications
    
-:::{#applications}
-:::
+- Earth and planets' gravity field modelling

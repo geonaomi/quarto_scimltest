@@ -1,6 +1,6 @@
 ---
 title: Gyanateet Dutta
-subtitle: Synthetic medical data generation.
+description: Synthetic medical data generation.
 image: portrait_placeholder.png
 categories: []
 links: <a href=https://github.com/Ryukijano class="btn btn-primary">Github</a><a href=https://ryukijano.github.io
@@ -16,6 +16,10 @@ applications:
 about:
   id: person-profile
   template: jolla
+  links:
+    icon: fab fa-github
+    text: github
+    href: Ryukijano
 ---
    
 :::{#person-profile}
@@ -24,11 +28,15 @@ about:
 ##
 ##Techniques
    
-:::{#Techniques}
-:::
+- Deep learning
+- Generative Adversarial Networks
+- Transformers
    
 ##
 ##Research area
+##
+##Applications
    
-:::{#applications}
-:::
+- Synthetic medical data generation.
+- Future frame prediction for medical videos.
+- Synthetic procedural mesh generation.

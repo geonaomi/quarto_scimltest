@@ -1,6 +1,6 @@
 ---
 title: Shenghao Qiu
-subtitle: Parallel and Distributed Deep Learning
+description: Parallel and Distributed Deep Learning
 image: portrait_placeholder.png
 categories:
 - Deep Learning
@@ -19,6 +19,10 @@ applications:
 about:
   id: person-profile
   template: jolla
+  links:
+    icon: fab fa-github
+    text: github
+    href: JoshuaQSH
 ---
    
 :::{#person-profile}
@@ -27,11 +31,16 @@ about:
 ##
 ##Techniques
    
-:::{#Techniques}
-:::
+- Machine learning Compiler
+- Graph Neural Network
+- Self-supervised learning
+- Convolutional Networks
    
 ##
 ##Research area
+##
+##Applications
    
-:::{#applications}
-:::
+- Parallel and Distributed Deep Learning
+- Models acceleration
+- Tensors and models backend graph optimization

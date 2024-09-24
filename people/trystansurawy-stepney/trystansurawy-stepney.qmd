@@ -1,6 +1,6 @@
 ---
 title: Trystan Surawy-Stepney
-subtitle: Glacier damage identification
+description: Glacier damage identification
 image: trystansurawy-stepney.jpg
 categories:
 - Deep Learning
@@ -19,6 +19,10 @@ applications:
 about:
   id: person-profile
   template: jolla
+  links:
+    icon: fab fa-github
+    text: github
+    href: R-Wolfcastle
 ---
    
 :::{#person-profile}
@@ -27,11 +31,15 @@ about:
 ##
 ##Techniques
    
-:::{#Techniques}
-:::
+- Weakly-supervised learning
+- Convolutional networks
+- Numerical modelling
    
 ##
 ##Research area
+##
+##Applications
    
-:::{#applications}
-:::
+- Glacier damage identification
+- SAR data
+- Glacial process modelling

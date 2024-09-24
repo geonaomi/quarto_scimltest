@@ -1,6 +1,6 @@
 ---
 title: Vineeth Kumar Vellala
-subtitle: Synthetic medical data generation
+description: Synthetic medical data generation
 image: vineethkumarvellala.png
 categories: []
 links: <a href=https://github.com/VellalaVineethKumar class="btn btn-primary">Github</a><a
@@ -16,6 +16,10 @@ applications:
 about:
   id: person-profile
   template: jolla
+  links:
+    icon: fab fa-github
+    text: github
+    href: VellalaVineethKumar
 ---
    
 :::{#person-profile}
@@ -24,11 +28,15 @@ about:
 ##
 ##Techniques
    
-:::{#Techniques}
-:::
+- Deep learning
+- data wrangling
+- statistical modelling
    
 ##
 ##Research area
+##
+##Applications
    
-:::{#applications}
-:::
+- Synthetic medical data generation
+- object detection and tracking for 360° videos
+- master data management

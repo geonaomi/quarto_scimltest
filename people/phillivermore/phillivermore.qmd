@@ -1,6 +1,6 @@
 ---
 title: Phil Livermore
-subtitle: Reconstruction of earth/planetary magnetic fields from sparse data
+description: Reconstruction of earth/planetary magnetic fields from sparse data
 image: phillivermore.png
 categories:
 - Deep Learning
@@ -17,6 +17,10 @@ applications:
 about:
   id: person-profile
   template: jolla
+  links:
+    icon: fab fa-github
+    text: github
+    href: plivermore
 ---
    
 :::{#person-profile}
@@ -25,11 +29,13 @@ about:
 ##
 ##Techniques
    
-:::{#Techniques}
-:::
+- Physics informed neural networks
    
 ##
 ##Research area
+##
+##Applications
    
-:::{#applications}
-:::
+- Reconstruction of earth/planetary magnetic fields from sparse data
+- deep earth geophysics
+- inverse theory

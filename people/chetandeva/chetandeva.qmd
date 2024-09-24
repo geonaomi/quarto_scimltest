@@ -1,6 +1,6 @@
 ---
 title: Chetan Deva
-subtitle: Modelling Plant Behaviour across G*E
+description: Modelling Plant Behaviour across G*E
 image: chetandeva.jpg
 categories:
 - Decision Trees
@@ -16,6 +16,7 @@ applications:
 about:
   id: person-profile
   template: jolla
+  links: {}
 ---
    
 :::{#person-profile}
@@ -24,11 +25,14 @@ about:
 ##
 ##Techniques
    
-:::{#Techniques}
-:::
+- Random Forests
+- XGBoost
+- Long Short-Term Memory
    
 ##
 ##Research area
+##
+##Applications
    
-:::{#applications}
-:::
+- Modelling Plant Behaviour across G*E
+- Time Series Forecasting of Vegetation Dynamics

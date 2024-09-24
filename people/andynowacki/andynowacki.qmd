@@ -1,6 +1,6 @@
 ---
 title: Andy Nowacki
-subtitle: Detection and location of earthquakes and icequakes
+description: Detection and location of earthquakes and icequakes
 image: portrait_placeholder.png
 categories:
 - Deep Learning
@@ -15,6 +15,10 @@ applications:
 about:
   id: person-profile
   template: jolla
+  links:
+    icon: fab fa-github
+    text: github
+    href: anowacki
 ---
    
 :::{#person-profile}
@@ -23,11 +27,13 @@ about:
 ##
 ##Techniques
    
-:::{#Techniques}
-:::
+- Neural networks
+- classification
    
 ##
 ##Research area
+##
+##Applications
    
-:::{#applications}
-:::
+- Detection and location of earthquakes and icequakes
+- subsurface structure and characterisation

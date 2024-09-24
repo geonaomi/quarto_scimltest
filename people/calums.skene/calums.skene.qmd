@@ -1,6 +1,6 @@
 ---
 title: Calum S. Skene
-subtitle: Geophysical and astrophysical turbulence
+description: Geophysical and astrophysical turbulence
 image: portrait_placeholder.png
 categories:
 - Deep Learning
@@ -15,6 +15,10 @@ applications:
 about:
   id: person-profile
   template: jolla
+  links:
+    icon: fab fa-github
+    text: github
+    href: csskene
 ---
    
 :::{#person-profile}
@@ -23,11 +27,13 @@ about:
 ##
 ##Techniques
    
-:::{#Techniques}
-:::
+- Neural networks
+- Neural operators
+- Reservoir computing
    
 ##
 ##Research area
+##
+##Applications
    
-:::{#applications}
-:::
+- Geophysical and astrophysical turbulence

@@ -1,6 +1,6 @@
 ---
 title: Alhanof Alolyan
-subtitle: Computer-aided design
+description: Computer-aided design
 image: alhanofalolyan.png
 categories: []
 links: <a href=https://github.com/scasalo class="btn btn-primary">Github</a><a href=https://vcg.leeds.ac.uk/profiles/alhanof-alolyan/
@@ -14,6 +14,10 @@ applications:
 about:
   id: person-profile
   template: jolla
+  links:
+    icon: fab fa-github
+    text: github
+    href: scasalo
 ---
    
 :::{#person-profile}
@@ -22,11 +26,13 @@ about:
 ##
 ##Techniques
    
-:::{#Techniques}
-:::
+- Deep reinforcement learning
+- deep learning
    
 ##
 ##Research area
+##
+##Applications
    
-:::{#applications}
-:::
+- Computer-aided design
+- crowd simulation

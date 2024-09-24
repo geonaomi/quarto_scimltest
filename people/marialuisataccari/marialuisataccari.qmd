@@ -1,6 +1,6 @@
 ---
 title: Maria Luisa Taccari
-subtitle: Groundwater prediction
+description: Groundwater prediction
 image: marialuisataccari.jpg
 categories:
 - committee
@@ -20,6 +20,10 @@ applications:
 about:
   id: person-profile
   template: jolla
+  links:
+    icon: fab fa-github
+    text: github
+    href: mlttac
 ---
    
 :::{#person-profile}
@@ -28,11 +32,15 @@ about:
 ##
 ##Techniques
    
-:::{#Techniques}
-:::
+- Operator learning
+- PINNs
+- Supervised learning
+- Convolutional networks
    
 ##
 ##Research area
+##
+##Applications
    
-:::{#applications}
-:::
+- Groundwater prediction
+- Surrogate modelling

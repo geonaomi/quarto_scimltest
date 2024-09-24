@@ -1,6 +1,6 @@
 ---
 title: Zoe Hancox
-subtitle: Health outcome prediction
+description: Health outcome prediction
 image: zoehancox.png
 categories:
 - Deep Learning
@@ -18,6 +18,10 @@ applications:
 about:
   id: person-profile
   template: jolla
+  links:
+    icon: fab fa-github
+    text: github
+    href: ZoeHancox
 ---
    
 :::{#person-profile}
@@ -26,11 +30,15 @@ about:
 ##
 ##Techniques
    
-:::{#Techniques}
-:::
+- Temporal graphs
+- 3d convolutional neural networks
+- hypergraphs
    
 ##
 ##Research area
+##
+##Applications
    
-:::{#applications}
-:::
+- Health outcome prediction
+- patient trajectory visualisation
+- ehr analysis

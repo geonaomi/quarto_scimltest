@@ -1,6 +1,6 @@
 ---
 title: Jacob Connolly
-subtitle: InSAR Time series
+description: InSAR Time series
 image: portrait_placeholder.png
 categories:
 - Decision Trees
@@ -15,6 +15,10 @@ applications:
 about:
   id: person-profile
   template: jolla
+  links:
+    icon: fab fa-github
+    text: github
+    href: jconnollyeo
 ---
    
 :::{#person-profile}
@@ -23,11 +27,13 @@ about:
 ##
 ##Techniques
    
-:::{#Techniques}
-:::
+- Supervised learning
+- Random Forests
    
 ##
 ##Research area
+##
+##Applications
    
-:::{#applications}
-:::
+- InSAR Time series
+- Noise reduction in SAR data

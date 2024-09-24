@@ -1,6 +1,6 @@
 ---
 title: Jillian Schacher
-subtitle: Marine spatial planning
+description: Marine spatial planning
 image: portrait_placeholder.png
 categories: []
 links: <a href=https://github.com/jschacher1 class="btn btn-primary">Github</a><a
@@ -16,6 +16,10 @@ applications:
 about:
   id: person-profile
   template: jolla
+  links:
+    icon: fab fa-github
+    text: github
+    href: jschacher1
 ---
    
 :::{#person-profile}
@@ -24,11 +28,15 @@ about:
 ##
 ##Techniques
    
-:::{#Techniques}
-:::
+- Gis
+- nvivo
+- wizard
    
 ##
 ##Research area
+##
+##Applications
    
-:::{#applications}
-:::
+- Marine spatial planning
+- species distribution
+- cluster mapping

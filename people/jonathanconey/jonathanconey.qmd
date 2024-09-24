@@ -1,6 +1,6 @@
 ---
 title: Jonathan Coney
-subtitle: segmentation of atmospheric gravity waves
+description: segmentation of atmospheric gravity waves
 image: jonathanconey.jpg
 categories:
 - Deep Learning
@@ -16,6 +16,10 @@ applications:
 about:
   id: person-profile
   template: jolla
+  links:
+    icon: fab fa-github
+    text: github
+    href: jdconey
 ---
    
 :::{#person-profile}
@@ -24,11 +28,13 @@ about:
 ##
 ##Techniques
    
-:::{#Techniques}
-:::
+- Supervised learning
+- convolutional networks
    
 ##
 ##Research area
+##
+##Applications
    
-:::{#applications}
-:::
+- segmentation of atmospheric gravity waves
+- learning physical characteristics from model output

@@ -1,6 +1,6 @@
 ---
 title: Mathew Henrickson
-subtitle: Text analysis of historic auction records
+description: Text analysis of historic auction records
 image: mathewhenrickson.png
 categories: []
 links: <a href=https://github.com/mh60385 class="btn btn-primary">Github</a><a href=https://ahc.leeds.ac.uk/fine-art/pgr/5707/mathew-henrickson
@@ -13,6 +13,10 @@ applications:
 about:
   id: person-profile
   template: jolla
+  links:
+    icon: fab fa-github
+    text: github
+    href: mh60385
 ---
    
 :::{#person-profile}
@@ -21,11 +25,12 @@ about:
 ##
 ##Techniques
    
-:::{#Techniques}
-:::
+- Language modelling
+- data mining
    
 ##
 ##Research area
+##
+##Applications
    
-:::{#applications}
-:::
+- Text analysis of historic auction records

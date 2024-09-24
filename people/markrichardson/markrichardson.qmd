@@ -1,6 +1,6 @@
 ---
 title: Mark Richardson
-subtitle: Met office um
+description: Met office um
 image: markrichardson.png
 categories: []
 links: <a href=https://github.com/MarkUoLeeds class="btn btn-primary">Github</a><a
@@ -16,6 +16,10 @@ applications:
 about:
   id: person-profile
   template: jolla
+  links:
+    icon: fab fa-github
+    text: github
+    href: MarkUoLeeds
 ---
    
 :::{#person-profile}
@@ -24,11 +28,15 @@ about:
 ##
 ##Techniques
    
-:::{#Techniques}
-:::
+- Fortran
+- mpi
+- openmp
    
 ##
 ##Research area
+##
+##Applications
    
-:::{#applications}
-:::
+- Met office um
+- dynamo
+- cesm

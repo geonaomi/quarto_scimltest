@@ -1,6 +1,6 @@
 ---
 title: Longwei Chen
-subtitle: Planetary magnetic field modelling
+description: Planetary magnetic field modelling
 image: portrait_placeholder.png
 categories:
 - Deep Learning
@@ -18,6 +18,10 @@ applications:
 about:
   id: person-profile
   template: jolla
+  links:
+    icon: fab fa-github
+    text: github
+    href: damao2021
 ---
    
 :::{#person-profile}
@@ -26,11 +30,15 @@ about:
 ##
 ##Techniques
    
-:::{#Techniques}
-:::
+- Physics-informed neural networks
+- deeponet
+- Bayesian PINN
    
 ##
 ##Research area
+##
+##Applications
    
-:::{#applications}
-:::
+- Planetary magnetic field modelling
+- asteroid gravity modelling
+- geophysical inverse problem

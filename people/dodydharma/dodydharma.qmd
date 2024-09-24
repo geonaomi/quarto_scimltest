@@ -1,6 +1,6 @@
 ---
 title: Dody Dharma
-subtitle: Deformbale Solid and Fluid Simulation
+description: Deformbale Solid and Fluid Simulation
 image: dodydharma.jpg
 categories:
 - Deep Learning
@@ -19,6 +19,10 @@ applications:
 about:
   id: person-profile
   template: jolla
+  links:
+    icon: fab fa-github
+    text: github
+    href: dodydharma
 ---
    
 :::{#person-profile}
@@ -27,11 +31,16 @@ about:
 ##
 ##Techniques
    
-:::{#Techniques}
-:::
+- Supervised learning
+- Continuous Convolution
+- Graph Neural Networks
+- Multilayer Perceptron
+- LSTM
    
 ##
 ##Research area
+##
+##Applications
    
-:::{#applications}
-:::
+- Deformbale Solid and Fluid Simulation
+- Vorticity Conservation
