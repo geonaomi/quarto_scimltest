@@ -1,0 +1,40 @@
+
+---
+title: "About Sciml Leeds"
+image: ../images/logo.png
+listing: 
+  id: Commitee
+  contents: [../assets/people_processed.yml]
+  type: grid
+  sort: false
+  sort-ui: false
+  fields: [image, name,links]
+  field-display-names: 
+      title: Title
+
+  grid-item-align: center
+  image-height: 425px
+  grid-columns: 3
+  include:
+    categories: "committee"
+format: 
+  html:
+    encoding: UTF-8
+anchor-sections: false
+page-layout: full
+about:
+  template: jolla
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/sciml-leeds/
+
+
+---
+
+Please contact us at <a href= "mailto: sciml@leeds.ac.uk"> sciml@leeds.ac.uk </a>
+
+##
+## Committee Members
+::: {#Commitee}
+:::

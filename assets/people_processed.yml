@@ -1,0 +1,728 @@
+- applications:
+  - meso-scale cloud organisation
+  - denoising of LIDAR water vapour observations
+  categories: []
+  image: ../assets/img/leifdenby.jpeg
+  links:
+  - <a href=https://github.com/leifdenby class="btn btn-primary">Github</a>
+  - <a href=https://environment.leeds.ac.uk/see/staff/1231/dr-leif-denby class="btn
+    btn-secondary">Website</a>
+  name: Leif Denby
+  social:
+    github: leifdenby
+    twitter: leifdenby
+    website: https://environment.leeds.ac.uk/see/staff/1231/dr-leif-denby
+  techniques:
+  - Self-supervised/unsupervised learning
+  - convolutional networks
+- applications:
+  - Modelling Plant Behaviour across G*E
+  - Time Series Forecasting of Vegetation Dynamics
+  categories: []
+  image: ../assets/img/chetandeva.jpg
+  links:
+  - <a href=https://environment.leeds.ac.uk/see/staff/9387/dr-chetan-deva class="btn
+    btn-secondary">Website</a>
+  name: Chetan Deva
+  social:
+    website: https://environment.leeds.ac.uk/see/staff/9387/dr-chetan-deva
+  techniques:
+  - Random Forests
+  - XGBoost
+  - Long Short-Term Memory
+- applications:
+  - crop type classification
+  - satellite time series classification
+  - crop yield estimation
+  categories: []
+  image: ../assets/img/samuelbancroft.jpg
+  links:
+  - <a href=https://github.com/spiruel class="btn btn-primary">Github</a>
+  - <a href=https://environment.leeds.ac.uk/see/pgr/9458/samuel-bancroft class="btn
+    btn-secondary">Website</a>
+  name: Samuel Bancroft
+  social:
+    github: spiruel
+    twitter: spiruel
+    website: https://environment.leeds.ac.uk/see/pgr/9458/samuel-bancroft
+  techniques:
+  - Semi-supervised/self-supervised learning
+  - convolutional networks
+- applications:
+  - segmentation of atmospheric gravity waves
+  - learning physical characteristics from model output
+  categories: []
+  image: ../assets/img/jonathanconey.jpg
+  links:
+  - <a href=https://github.com/jdconey class="btn btn-primary">Github</a>
+  - <a href=https://environment.leeds.ac.uk/see/pgr/9496/jonathan-coney class="btn
+    btn-secondary">Website</a>
+  name: Jonathan Coney
+  social:
+    github: jdconey
+    twitter: jonathan__coney
+    website: https://environment.leeds.ac.uk/see/pgr/9496/jonathan-coney
+  techniques:
+  - Supervised learning
+  - convolutional networks
+- applications:
+  - Glacier damage identification
+  - SAR data
+  - Glacial process modelling
+  categories: []
+  image: ../assets/img/trystansurawy-stepney.jpg
+  links:
+  - <a href=https://github.com/R-Wolfcastle class="btn btn-primary">Github</a>
+  - <a href=https://environment.leeds.ac.uk/see/pgr/9528/trystan-surawy-stepney class="btn
+    btn-secondary">Website</a>
+  name: Trystan Surawy-Stepney
+  social:
+    github: R-Wolfcastle
+    website: https://environment.leeds.ac.uk/see/pgr/9528/trystan-surawy-stepney
+  techniques:
+  - Weakly-supervised learning
+  - Convolutional networks
+  - Numerical modelling
+- applications:
+  - Tidewater glacier dynamics
+  - Ice ocean interaction
+  categories: []
+  image: ../assets/img/portrait_placeholder.png
+  links:
+  - <a href=https://github.com/eebjwa class="btn btn-primary">Github</a>
+  - <a href=https://environment.leeds.ac.uk/see/pgr/9532/benjamin-wallis class="btn
+    btn-secondary">Website</a>
+  name: Ben Wallis
+  social:
+    github: eebjwa
+    twitter: benjjwallis
+    website: https://environment.leeds.ac.uk/see/pgr/9532/benjamin-wallis
+  techniques:
+  - Supervised learning
+  - Convolutional networks
+  - Bayesian methods
+- applications:
+  - Storm tracking and initiation prediction
+  - Precipitation nowcasting
+  categories: []
+  image: ../assets/img/joeysmith.png
+  links:
+  - <a href=https://github.com/eejasm class="btn btn-primary">Github</a>
+  - <a href=None class="btn btn-secondary">Website</a>
+  name: Joey Smith
+  social:
+    github: eejasm
+    website: null
+  techniques:
+  - Random Forests
+  - GANs
+- applications:
+  - Groundwater prediction
+  - Surrogate modelling
+  categories:
+  - committee
+  image: ../assets/img/marialuisataccari.jpg
+  links:
+  - <a href=https://github.com/mlttac class="btn btn-primary">Github</a>
+  - <a href=https://eps.leeds.ac.uk/civil-engineering/pgr/8539/maria-luisa class="btn
+    btn-secondary">Website</a>
+  name: Maria Luisa Taccari
+  social:
+    github: mlttac
+    twitter: MLTaccari
+    website: https://eps.leeds.ac.uk/civil-engineering/pgr/8539/maria-luisa
+  techniques:
+  - Operator learning
+  - PINNs
+  - Supervised learning
+  - Convolutional networks
+- applications:
+  - Geophysical and astrophysical turbulence
+  categories: []
+  image: ../assets/img/portrait_placeholder.png
+  links:
+  - <a href=https://github.com/csskene class="btn btn-primary">Github</a>
+  - <a href=https://eps.leeds.ac.uk/maths-applied-mathematics/staff/8830/dr-calum-s-skene
+    class="btn btn-secondary">Website</a>
+  name: Calum S. Skene
+  social:
+    github: csskene
+    twitter: calumskene
+    website: https://eps.leeds.ac.uk/maths-applied-mathematics/staff/8830/dr-calum-s-skene
+  techniques:
+  - Neural networks
+  - Neural operators
+  - Reservoir computing
+- applications:
+  - Deformbale Solid and Fluid Simulation
+  - Vorticity Conservation
+  categories: []
+  image: ../assets/img/dodydharma.jpg
+  links:
+  - <a href=https://github.com/dodydharma class="btn btn-primary">Github</a>
+  - <a href=https://eps.leeds.ac.uk/computing/pgr/7644/dody-dharma class="btn btn-secondary">Website</a>
+  name: Dody Dharma
+  social:
+    github: dodydharma
+    twitter: dodydharma
+    website: https://eps.leeds.ac.uk/computing/pgr/7644/dody-dharma
+  techniques:
+  - Supervised learning
+  - Continuous Convolution
+  - Graph Neural Networks
+  - Multilayer Perceptron
+  - LSTM
+- applications:
+  - Geomagnetism
+  - Fluid Flows
+  categories:
+  - committee
+  image: ../assets/img/naomishakespeare-rees.jpg
+  links:
+  - <a href=https://github.com/geonaomi class="btn btn-primary">Github</a>
+  name: Naomi Shakespeare-Rees
+  social:
+    github: geonaomi
+    twitter: geonaomi
+  techniques:
+  - PINNs
+  - Convolutional Networks
+  - Autoencoders
+- applications:
+  - Parallel and Distributed Deep Learning
+  - Models acceleration
+  - Tensors and models backend graph optimization
+  categories: []
+  image: ../assets/img/portrait_placeholder.png
+  links:
+  - <a href=https://github.com/JoshuaQSH class="btn btn-primary">Github</a>
+  - <a href=https://eps.leeds.ac.uk/computing/pgr/8738/shenghao-qiu class="btn btn-secondary">Website</a>
+  name: Shenghao Qiu
+  social:
+    github: JoshuaQSH
+    website: https://eps.leeds.ac.uk/computing/pgr/8738/shenghao-qiu
+  techniques:
+  - Machine learning Compiler
+  - Graph Neural Network
+  - Self-supervised learning
+  - Convolutional Networks
+- applications:
+  - Tropospheric ozone forcast
+  - Weather classification
+  - Time series decomposition of air pollutants
+  categories: []
+  image: ../assets/img/shuzhang.jpg
+  links:
+  - <a href=https://github.com/ShrutiZhang class="btn btn-primary">Github</a>
+  - <a href=None class="btn btn-secondary">Website</a>
+  name: Shu Zhang
+  social:
+    github: ShrutiZhang
+    website: null
+  techniques:
+  - Random Forests
+  - XGBoost
+  - LSTM
+- applications:
+  - Reconstruction of earth/planetary magnetic fields from sparse data
+  - deep earth geophysics
+  - inverse theory
+  categories: []
+  image: ../assets/img/phillivermore.png
+  links:
+  - <a href=https://github.com/plivermore class="btn btn-primary">Github</a>
+  - <a href=https://environment.leeds.ac.uk/see/staff/1381/professor-phil-livermore
+    class="btn btn-secondary">Website</a>
+  name: Phil Livermore
+  social:
+    github: plivermore
+    website: https://environment.leeds.ac.uk/see/staff/1381/professor-phil-livermore
+  techniques:
+  - Physics informed neural networks
+- applications:
+  - Weather nowcasting
+  - parametrization of atmospheric processes
+  categories: []
+  image: ../assets/img/jakublewandowski.png
+  links:
+  - <a href=https://github.com/Quba1 class="btn btn-primary">Github</a>
+  - <a href=https://environment.leeds.ac.uk/pgr/11237/jakub-lewandowski class="btn
+    btn-secondary">Website</a>
+  name: Jakub Lewandowski
+  social:
+    github: Quba1
+    website: https://environment.leeds.ac.uk/pgr/11237/jakub-lewandowski
+  techniques:
+  - Supervised learning
+  - physics-informed neural networks
+- applications:
+  - Crop yield estimation
+  - impacts of climate variability
+  - effects of extreme events
+  categories: []
+  image: ../assets/img/joegallear.jpg
+  links:
+  - <a href=https://github.com/eejg class="btn btn-primary">Github</a>
+  - <a href=https://environment.leeds.ac.uk/see/pgr/2584/joe-gallear class="btn btn-secondary">Website</a>
+  name: Joe Gallear
+  social:
+    github: eejg
+    twitter: null
+    website: https://environment.leeds.ac.uk/see/pgr/2584/joe-gallear
+  techniques:
+  - Supervised learning
+  - neural networks
+  - random forests
+- applications:
+  - very large histology tissue image, preprocessing and classification
+  categories: []
+  image: ../assets/img/portrait_placeholder.png
+  links:
+  - <a href=https://github.com/Smule11 class="btn btn-primary">Github</a>
+  - <a href=https://ai-medical.leeds.ac.uk/home/student-profiles/ class="btn btn-secondary">Website</a>
+  name: Sam Llanwarne
+  social:
+    github: Smule11
+    twitter: SamLlanwarne
+    website: https://ai-medical.leeds.ac.uk/home/student-profiles/
+  techniques:
+  - Neural Networks
+  - Segmentation, auto-encoding, classification
+  - Want to use transformers and graphs more
+- applications:
+  - Detection and location of earthquakes and icequakes
+  - subsurface structure and characterisation
+  categories: []
+  image: ../assets/img/portrait_placeholder.png
+  links:
+  - <a href=https://github.com/anowacki class="btn btn-primary">Github</a>
+  - <a href=https://environment.leeds.ac.uk/see/staff/1455/dr-andy-nowacki class="btn
+    btn-secondary">Website</a>
+  name: Andy Nowacki
+  social:
+    github: anowacki
+    website: https://environment.leeds.ac.uk/see/staff/1455/dr-andy-nowacki
+  techniques:
+  - Neural networks
+  - classification
+- applications:
+  - mineral system exploration
+  - subsurface structure
+  - geophysical potential fields
+  categories: []
+  image: ../assets/img/portrait_placeholder.png
+  links:
+  - <a href=https://github.com/zhangchong12 class="btn btn-primary">Github</a>
+  - <a href=https://www.researchgate.net/profile/Chong-Zhang-55 class="btn btn-secondary">Website</a>
+  name: John Chong Zhang
+  social:
+    github: zhangchong12
+    website: https://www.researchgate.net/profile/Chong-Zhang-55
+  techniques:
+  - Neural networks
+  - inversions
+  - filters
+- applications:
+  - Computational Fluid Dynamics
+  - Inverse Modelling
+  - Interior Air Control
+  categories:
+  - committee
+  image: ../assets/img/mirandahorne.png
+  links:
+  - <a href=https://github.com/MirandaJSHorne class="btn btn-primary">Github</a>
+  - <a href=https://vcg.leeds.ac.uk/profiles/miranda-horne/ class="btn btn-secondary">Website</a>
+  name: Miranda Horne
+  social:
+    github: MirandaJSHorne
+    website: https://vcg.leeds.ac.uk/profiles/miranda-horne/
+  techniques:
+  - Operator Learning
+  - Physics Constrained Neural Networks
+- applications:
+  - Planetary magnetic field modelling
+  - asteroid gravity modelling
+  - geophysical inverse problem
+  categories: []
+  image: ../assets/img/portrait_placeholder.png
+  links:
+  - <a href=https://github.com/damao2021 class="btn btn-primary">Github</a>
+  - <a href=https://environment.leeds.ac.uk/see/staff/9985/dr-longwei-chen class="btn
+    btn-secondary">Website</a>
+  name: Longwei Chen
+  social:
+    github: damao2021
+    twitter: longwei_chen22
+    website: https://environment.leeds.ac.uk/see/staff/9985/dr-longwei-chen
+  techniques:
+  - Physics-informed neural networks
+  - deeponet
+  - Bayesian PINN
+- applications:
+  - Earth and planets' gravity field modelling
+  categories: []
+  image: ../assets/img/leyuanwu.png
+  links:
+  - <a href=https://github.com/LeyuanWu class="btn btn-primary">Github</a>
+  - <a href=https://environment.leeds.ac.uk/staff/11344/dr-leyuan-wu class="btn btn-secondary">Website</a>
+  name: Leyuan Wu
+  social:
+    github: LeyuanWu
+    website: https://environment.leeds.ac.uk/staff/11344/dr-leyuan-wu
+  techniques:
+  - Physics informed neural networks
+- applications:
+  - Semantic segmentation of masonry lined tunnel joints
+  - structural condition assessment
+  categories:
+  - committee
+  image: ../assets/img/jacksmith.png
+  links:
+  - <a href=https://github.com/Mysterymanreturns class="btn btn-primary">Github</a>
+  - <a href=https://environment.leeds.ac.uk/see/pgr/9939/jack-smith class="btn btn-secondary">Website</a>
+  name: Jack Smith
+  social:
+    email: eejmws@leeds.ac.uk
+    github: Mysterymanreturns
+    twitter: null
+    website: https://environment.leeds.ac.uk/see/pgr/9939/jack-smith
+  subtitle: <a href= https://environment.leeds.ac.uk/see/pgr/9939/jack-smith" class="btn
+    btn-primary">Website</a>
+  techniques:
+  - Cnns
+  - synthetic data
+  - gans
+- applications:
+  - Haemodynamic flow super-resolution
+  - 4D-flow MRI
+  - Left ventricular remodelling
+  categories: []
+  image: ../assets/img/fergusshone.png
+  links:
+  - <a href=https://github.com/fergusshone class="btn btn-primary">Github</a>
+  - <a href=https://eps.leeds.ac.uk/computing/pgr/7701/fergus-shone class="btn btn-secondary">Website</a>
+  name: Fergus Shone
+  social:
+    github: fergusshone
+    twitter: null
+    website: https://eps.leeds.ac.uk/computing/pgr/7701/fergus-shone
+  techniques:
+  - Informed machine learning
+  - Physics-informed neural networks
+- applications:
+  - Computer-aided design
+  - crowd simulation
+  categories:
+  - Deep Learning
+  image: ../assets/img/alhanofalolyan.png
+  links:
+  - <a href=https://github.com/scasalo class="btn btn-primary">Github</a>
+  - <a href=https://vcg.leeds.ac.uk/profiles/alhanof-alolyan/ class="btn btn-secondary">Website</a>
+  name: Alhanof Alolyan
+  social:
+    github: scasalo
+    twitter: null
+    website: https://vcg.leeds.ac.uk/profiles/alhanof-alolyan/
+  techniques:
+  - Deep reinforcement learning
+  - deep learning
+- applications:
+  - Precipitation nowcasting
+  - Convection / thunderstorm prediction
+  categories: []
+  image: ../assets/img/portrait_placeholder.png
+  links:
+  - <a href=https://github.com/claire-bartholomew class="btn btn-primary">Github</a>
+  - <a href=None class="btn btn-secondary">Website</a>
+  name: Claire Bartholomew
+  social:
+    github: claire-bartholomew
+    twitter: clairebarty
+    website: null
+  techniques:
+  - Supervised learning
+  - CNNs
+- applications:
+  - InSAR Time series
+  - Noise reduction in SAR data
+  categories: []
+  image: ../assets/img/portrait_placeholder.png
+  links:
+  - <a href=https://github.com/jconnollyeo class="btn btn-primary">Github</a>
+  - <a href=https://environment.leeds.ac.uk/see/pgr/9497/jacob-connolly class="btn
+    btn-secondary">Website</a>
+  name: Jacob Connolly
+  social:
+    github: jconnollyeo
+    twitter: JConnollyEO
+    website: https://environment.leeds.ac.uk/see/pgr/9497/jacob-connolly
+  techniques:
+  - Supervised learning
+  - Random Forests
+- applications:
+  - Radar interferometry (insar)
+  - volcano deformation
+  - tectonic deformation
+  categories:
+  - Deep Learning
+  image: ../assets/img/andyhooper.png
+  links:
+  - <a href=https://github.com/earahoo class="btn btn-primary">Github</a>
+  - <a href=https://environment.leeds.ac.uk/staff/1334/professor-andy-hooper class="btn
+    btn-secondary">Website</a>
+  name: Andy Hooper
+  social:
+    github: earahoo
+    twitter: GeoAndyHooper
+    website: https://environment.leeds.ac.uk/staff/1334/professor-andy-hooper
+  techniques:
+  - Ica
+  - deep learning
+  - null
+- applications:
+  - Met office um
+  - dynamo
+  - cesm
+  categories: []
+  image: ../assets/img/markrichardson.png
+  links:
+  - <a href=https://github.com/MarkUoLeeds class="btn btn-primary">Github</a>
+  - <a href=https://www.cemac.leeds.ac.uk class="btn btn-secondary">Website</a>
+  name: Mark Richardson
+  social:
+    github: MarkUoLeeds
+    twitter: CEMAC_MarkR
+    website: https://www.cemac.leeds.ac.uk
+  techniques:
+  - Fortran
+  - mpi
+  - openmp
+- applications:
+  - University teaching and assessment
+  - understanding quran and hadith
+  - detecting bias and fake news
+  categories: []
+  image: ../assets/img/ericatwell.png
+  links:
+  - <a href=https://github.com/csc6ea class="btn btn-primary">Github</a>
+  - <a href=http://www.comp.leeds.ac.uk/eric class="btn btn-secondary">Website</a>
+  name: Eric Atwell
+  social:
+    github: csc6ea
+    twitter: null
+    website: http://www.comp.leeds.ac.uk/eric
+  techniques:
+  - Text analytics
+  - sketchengine
+  - chatbots
+- applications:
+  - Classification of convective weather systems
+  categories: []
+  image: ../assets/img/portrait_placeholder.png
+  links:
+  - <a href=https://github.com/SimonPeatman class="btn btn-primary">Github</a>
+  - <a href=http://www.simonpeatman.me.uk class="btn btn-secondary">Website</a>
+  name: Simon Peatman
+  social:
+    github: SimonPeatman
+    website: http://www.simonpeatman.me.uk
+  techniques:
+  - Neural networks
+- applications:
+  - Text analysis of historic auction records
+  categories: []
+  image: ../assets/img/mathewhenrickson.png
+  links:
+  - <a href=https://github.com/mh60385 class="btn btn-primary">Github</a>
+  - <a href=https://ahc.leeds.ac.uk/fine-art/pgr/5707/mathew-henrickson class="btn
+    btn-secondary">Website</a>
+  name: Mathew Henrickson
+  social:
+    github: mh60385
+    twitter: null
+    website: https://ahc.leeds.ac.uk/fine-art/pgr/5707/mathew-henrickson
+  techniques:
+  - Language modelling
+  - data mining
+- applications:
+  - Predicting spatial and temporal change
+  - Forecasting climate change impacts
+  - River level forecating
+  categories: []
+  image: ../assets/img/andyturner.png
+  links:
+  - <a href=https://github.com/agdturner class="btn btn-primary">Github</a>
+  - <a href=https://agdturner.github.io class="btn btn-secondary">Website</a>
+  name: Andy Turner
+  social:
+    github: agdturner
+    twitter: agdturner
+    website: https://agdturner.github.io
+  techniques:
+  - Multi-layered Perceptron
+  - Fuzzy Inference
+- applications:
+  - Synthetic medical data generation
+  - "object detection and tracking for 360\xB0 videos"
+  - master data management
+  categories: []
+  image: ../assets/img/vineethkumarvellala.png
+  links:
+  - <a href=https://github.com/VellalaVineethKumar class="btn btn-primary">Github</a>
+  - <a href=https://www.linkedin.com/in/vvineethkumar class="btn btn-secondary">Website</a>
+  name: Vineeth Kumar Vellala
+  social:
+    github: VellalaVineethKumar
+    twitter: null
+    website: https://www.linkedin.com/in/vvineethkumar
+  techniques:
+  - Deep learning
+  - data wrangling
+  - statistical modelling
+- applications:
+  - Clouds
+  - radiation
+  - climate change
+  categories: []
+  image: ../assets/img/declanfinney.png
+  links:
+  - <a href=https://github.com/DLFinney class="btn btn-primary">Github</a>
+  - <a href=https://environment.leeds.ac.uk/institute-climate-atmospheric-science/staff/1261/dr-declan-finney
+    class="btn btn-secondary">Website</a>
+  name: Declan Finney
+  social:
+    github: DLFinney
+    twitter: DecFinney
+    website: https://environment.leeds.ac.uk/institute-climate-atmospheric-science/staff/1261/dr-declan-finney
+  techniques:
+  - Chatgpt :p
+  - null
+  - null
+- applications:
+  - Monitoring volcano
+  - monitoring seasonal deformation changes
+  categories: []
+  image: ../assets/img/yutaroshigemitsu.png
+  links:
+  - <a href=https://github.com/shigemitsu-yutaro class="btn btn-primary">Github</a>
+  - <a href=https://earth.kumst.kyoto-u.ac.jp/en/ class="btn btn-secondary">Website</a>
+  name: Yutaro Shigemitsu
+  social:
+    github: shigemitsu-yutaro
+    twitter: null
+    website: https://earth.kumst.kyoto-u.ac.jp/en/
+  techniques:
+  - Interferometric sar (insar)
+  - drone sar
+  - pinn (under training)
+- applications:
+  - Marine spatial planning
+  - species distribution
+  - cluster mapping
+  categories: []
+  image: ../assets/img/portrait_placeholder.png
+  links:
+  - <a href=https://github.com/jschacher1 class="btn btn-primary">Github</a>
+  - <a href=https://environment.leeds.ac.uk/see/pgr/2654/jillian-schacher- class="btn
+    btn-secondary">Website</a>
+  name: Jillian Schacher
+  social:
+    github: jschacher1
+    twitter: null
+    website: https://environment.leeds.ac.uk/see/pgr/2654/jillian-schacher-
+  techniques:
+  - Gis
+  - nvivo
+  - wizard
+- applications:
+  - Global carbon cycling
+  - environmental contaminant transport
+  - groundwater modelling
+  categories: []
+  image: ../assets/img/drpeymanbabakhani.png
+  links:
+  - <a href=https://github.com/None class="btn btn-primary">Github</a>
+  - <a href=https://environment.leeds.ac.uk/see/staff/12072/dr-peyman-babakhani class="btn
+    btn-secondary">Website</a>
+  name: Dr Peyman Babakhani
+  social:
+    github: null
+    twitter: PeymanBabakhani
+    website: https://environment.leeds.ac.uk/see/staff/12072/dr-peyman-babakhani
+  techniques:
+  - Deep learning
+  - physics-informed ai
+  - random forest
+- applications:
+  - Health outcome prediction
+  - patient trajectory visualisation
+  - ehr analysis
+  categories: []
+  image: ../assets/img/zoehancox.png
+  links:
+  - <a href=https://github.com/ZoeHancox class="btn btn-primary">Github</a>
+  - <a href=https://zoehancox.github.io/ class="btn btn-secondary">Website</a>
+  name: Zoe Hancox
+  social:
+    github: ZoeHancox
+    twitter: ZLHancox
+    website: https://zoehancox.github.io/
+  techniques:
+  - Temporal graphs
+  - 3d convolutional neural networks
+  - hypergraphs
+- applications:
+  - Synthetic medical data generation.
+  - Future frame prediction for medical videos.
+  - Synthetic procedural mesh generation.
+  categories: []
+  image: ../assets/img/portrait_placeholder.png
+  links:
+  - <a href=https://github.com/Ryukijano class="btn btn-primary">Github</a>
+  - <a href=https://ryukijano.github.io class="btn btn-secondary">Website</a>
+  name: Gyanateet Dutta
+  social:
+    github: Ryukijano
+    twitter: gyanateet
+    website: https://ryukijano.github.io
+  techniques:
+  - Deep learning
+  - Generative Adversarial Networks
+  - Transformers
+- applications:
+  - Turbulence parametrizations
+  - simple climate models
+  - statistical climatology
+  categories: []
+  image: ../assets/img/portrait_placeholder.png
+  links:
+  - <a href=https://github.com/donaldcummins class="btn btn-primary">Github</a>
+  - <a href=https://environment.leeds.ac.uk/see/staff/12681/dr-donald-cummins class="btn
+    btn-secondary">Website</a>
+  name: Donald Cummins
+  social:
+    github: donaldcummins
+    website: https://environment.leeds.ac.uk/see/staff/12681/dr-donald-cummins
+  techniques:
+  - Neural networks
+  - state-space modelling
+- applications:
+  - Biomedical fluorescence microscopy
+  - Pathology methods
+  - Super-resolution fluorescence microsopy7
+  - Single-molecule localisation microscopy
+  categories: []
+  image: ../assets/img/alistaircurd.jpg
+  links:
+  - <a href=https://github.com/AlistairCurd class="btn btn-primary">Github</a>
+  - <a href=https://biologicalsciences.leeds.ac.uk/molecular-and-cellular-biology/staff/305/dr-alistair-curd
+    class="btn btn-secondary">Website</a>
+  name: Alistair Curd
+  social:
+    github: AlistairCurd
+    twitter: AlistairCurd
+    website: https://biologicalsciences.leeds.ac.uk/molecular-and-cellular-biology/staff/305/dr-alistair-curd
+  techniques:
+  - Explainable neural networks
+  - models for images and point patterns,
+  - classification

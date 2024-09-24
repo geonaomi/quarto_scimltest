@@ -4,6 +4,9 @@ title: "GPU resource list"
 listing: 
   id: listing-gpus
   contents: gpu_list.yml
+  type: table
+  sort: false
+  sort-ui: false
 metadata-files: 
   - metadata.yml
 ---
@@ -11,9 +14,8 @@ metadata-files:
 Below is an overview of GPU platforms available for research by staff at the University of Leeds:
 
 
-### GPU List {.unlisted}
 
-::: {#listing-gpus .column-body-outset-right}
+::: {#listing-gpus}
 :::
 
 - [EuroHPC JU - supercomputers](https://eurohpc-ju.europa.eu/about/our-supercomputers_en)

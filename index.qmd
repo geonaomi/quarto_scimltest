@@ -5,42 +5,26 @@ resources:
 page-layout: full
 title-block-banner: true
 image: images/logo.png
+
+listing: 
+  id: listing-people
+  contents: [../assets/people_processed.yml]
+  type: grid
+  sort: asc
+  filter-ui: True
+  fields: [image,categories, name,links]
+  field-display-names: 
+      links: Links
+  grid-item-align: center
+  image-height: 325px
+  grid-columns: 4
+
+format: 
+  html:
+    encoding: UTF-8
+anchor-sections: false
 ---
 
-
-<style type='text/css'>
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-} 
-
-UL.people-list {
-  list-style: none;
-  margin-left: 0px;
-}
-
-LI.person-card {
-  width: 200px;
-  float: left;
-  margin: 10px;
-  text-align: center;
-  height: 340px;
-}
-
-LI.person-card P {
-  margin: 0.5rem 0px !important;
-}
-
-LI.person-card > img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  border: 5px solid #eee;
-  text-align: center;
-} 
-
-</style>
 
 # Scientific Machine Learning at University of Leeds
 
@@ -72,43 +56,7 @@ View <a href="https://cemac.github.io/LIFD_ENV_ML_NOTEBOOKS/">LIFD Jupyter Noteb
 
 ## People
 
-{% assign image_files = site.static_files | where: "image", true %}
-{% for myimage in image_files %}
-{% if myimage.basename == "portrait_placeholder" %}
-{% assign image_path_placeholder = myimage.path %}
-{% endif %}
-{% endfor %}
-
-<ul class='people-list'>
-{% for item in site.assets.people %}
-<li class='person-card'>
-  {% assign image_path = image_path_placeholder %}
-  {% for myimage in image_files %}
-  {% assign basename = item.name | split: " " | join: "" | downcase %}
-  {% if myimage.basename == basename %}
-  {% assign image_path = myimage.path %}
-  {% break %}
-  {% endif %}
-  {% endfor %}
-
-  <img src='{{ image_path }}'/>
-  <p>{{item.name}}</p>
-  {% if item.social.website %}
-  <a href="{{ item.social.website }}"><i class="fas fa-globe"></i></a>
-  {% endif %}
-  {% if item.social.github %}
-  <a href="https://github.com/{{ item.social.github }}"><i class="fab fa-github"></i></a>
-  {% endif %}
-  {% if item.social.twitter %}
-  <a href="https://twitter.com/{{ item.social.twitter }}"><i class="fab fa-twitter"></i></a>
-  {% endif %}
-  <p>{{ item.techniques | join: ", "}}</p>
-  <p>{{ item.applications | join: ", "}}</p>
-</li>
-{% endfor %}
-</ul>
-<div class='clearfix'></div>
-
-# Posts
+::: {#listing-people}
+:::
 
 
