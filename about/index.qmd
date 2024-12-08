@@ -1,7 +1,7 @@
 
 ---
 title: "About Sciml Leeds"
-image: ../images/logo.png
+image: ../images/logo_final_fulltext.png"
 listing: 
   id: Commitee
   contents: "../people/*/**.qmd"

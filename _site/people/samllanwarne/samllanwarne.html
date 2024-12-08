@@ -1,16 +1,14 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
-<head>
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
 
-<meta charset="utf-8" />
-<meta name="generator" content="quarto-1.5.57" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<meta name="description" content="very large histology tissue image, preprocessing and classification">
 
-<meta name="description" content="mineral system exploration" />
-
-<title>John Chong Zhang – sciml_quarto_test</title>
+<title>Sam Llanwarne – SciML - Leeds</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,7 +23,21 @@ ul.task-list li input[type="checkbox"] {
 }
 </style>
 
-<!-- htmldependencies:E3FAD763 -->
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -55,64 +67,54 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../../styles.css" />
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body>
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="/index.html">
-    <span class="navbar-title">sciml_quarto_test</span>
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/logo_final.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">SciML - Leeds</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-  aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation"
-  onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="/index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="/gpus/index.html"> 
+    <a class="nav-link" href="../../gpus/index.html"> 
 <span class="menu-text">GPUS</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="/events/index.html"> 
+    <a class="nav-link" href="../../events/index.html"> 
 <span class="menu-text">Events</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="/about/index.html"> 
+    <a class="nav-link" href="../../about/index.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <span class="nav-link">
-<span class="menu-text">about.qmd</span>
-    </span>
-  </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/"> <i 
-  class="bi bi-github" 
-  role="img" 
->
+    <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i 
-  class="bi bi-twitter" 
-  role="img" 
->
+    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -127,76 +129,61 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <div id="quarto-toc-target"></div>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+
+
+
+<div class="quarto-about-jolla">
+  <img src="portrait_placeholder.png" class="about-image
+  round " style="height: 15em; width: 15em;">
+ <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">John Chong Zhang</h1>
+<h1 class="title">Sam Llanwarne</h1>
   <div class="quarto-categories">
     <div class="quarto-category">Deep Learning</div>
+    <div class="quarto-category">CNN</div>
   </div>
   </div>
-
 <div>
   <div class="description">
-    mineral system exploration
+    very large histology tissue image, preprocessing and classification
   </div>
 </div>
-
-
 <div class="quarto-title-meta">
-
-    
-  
-    
   </div>
-  
-
-
-</header>
-
-
-<div id="person-profile">
-
+</header><div id="person-profile">
+</div>  
 </div>
+
 <section id="section" class="level2">
-<h2></h2>
+<h2 data-anchor-id="section"></h2>
 </section>
 <section id="techniques" class="level2">
-<h2>Techniques</h2>
+<h2 data-anchor-id="techniques">Techniques</h2>
 <ul>
-<li>Neural networks</li>
-<li>inversions</li>
-<li>filters</li>
+<li>Neural Networks</li>
+<li>Segmentation, auto-encoding, classification</li>
+<li>Want to use transformers and graphs more</li>
 </ul>
 </section>
 <section id="section-1" class="level2">
-<h2></h2>
+<h2 data-anchor-id="section-1"></h2>
 </section>
 <section id="research-area" class="level2">
-<h2>Research area</h2>
+<h2 data-anchor-id="research-area">Research area</h2>
 <ul>
-<li>mineral system exploration</li>
-<li>subsurface structure</li>
-<li>geophysical potential fields</li>
+<li>very large histology tissue image, preprocessing and classification</li>
 </ul>
-<div id="quarto-navigation-envelope" class="hidden">
-<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-sidebar-title">sciml_quarto_test</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar-title">sciml_quarto_test</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:Home">Home</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/index.html">/index.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:GPUS">GPUS</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/gpus/index.html">/gpus/index.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:Events">Events</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/events/index.html">/events/index.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:About">About</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/about/index.html">/about/index.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:about.qmd">about.qmd</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:https://github.com/">https://github.com/</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:https://twitter.com">https://twitter.com</span></p>
-</div>
-<div id="quarto-about-pipeline" class="hidden">
 
-</div>
-<div id="quarto-meta-markdown" class="hidden">
-<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-metatitle">John Chong Zhang – sciml_quarto_test</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-twittercardtitle">John Chong Zhang – sciml_quarto_test</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-ogcardtitle">John Chong Zhang – sciml_quarto_test</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-metasitename">sciml_quarto_test</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-twittercarddesc">mineral system exploration</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-ogcardddesc">mineral system exploration</span></p>
-</div>
+
+
 </section>
 
 </main> <!-- /main -->
-<script id = "quarto-html-after-body" type="application/javascript">
+<script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -611,6 +598,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 </div> <!-- /content -->
 
-</body>
 
-</html>
+
+
+</body></html>
