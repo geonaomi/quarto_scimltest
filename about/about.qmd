@@ -1,6 +1,6 @@
 ---
 title: "About"
-image: images/logo.png
+image: "../images/logo_final.png"
 about:
   template: jolla
   links:

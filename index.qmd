@@ -4,7 +4,8 @@ title: ""
 page-layout: full
 title-block-banner: False
 image: "images/logo_final_fulltext.png"
-listing: 
+listing:
+  categories: true 
   id: listing-people
   contents: "people/*/**.qmd"
   type: grid
