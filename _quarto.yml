@@ -1,13 +1,20 @@
 project:
   type: website
 
+language: 
+  search-text-placeholder: Search
 website:
   title: "SciML - Leeds"
+  search:
+    location: navbar
+    type: textbox
+    show-item-context: tree
+    collapse-after: 1
   navbar:
     background: primary
     pinned: true
     logo: "images/logo_final.png"
-    search: true
+    
     left:
       - text: "Home"
         href: index.qmd
@@ -19,9 +26,9 @@ website:
         href: about/index.qmd
     right:
       - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/sciml-leeds/
+      - icon: Teams
+        href: https://teams.microsoft.com/l/channel/19%3A7983fce929d04155936c6deab6cbd595%40thread.tacv2/SciML%20Community?groupId=5293870c-9eac-462b-a99b-76ba9804eb41&tenantId=bdeaeda8-c81d-45ce-863e-5232a535b7cb
 format:
   
   html:
