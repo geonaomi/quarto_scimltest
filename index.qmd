@@ -49,7 +49,7 @@ You can view the <a href="https://us10.campaign-archive.com/home/?u=1e7160a87211
 ## Training Resources
 
   * Hands-on SciML [Workbooks](\events\#workshops)
-  * LIFD Jupyter <a href="https://cemac.github.io/LIFD_ENV_ML_NOTEBOOKS/">Tutorials</a>on various machine learning topics.
+  * LIFD Jupyter <a href="https://cemac.github.io/LIFD_ENV_ML_NOTEBOOKS/">Tutorials</a> on various machine learning topics.
 
 ## People
 
