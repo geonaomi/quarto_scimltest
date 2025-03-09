@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Machine Learning Resources – SciML - University of Leeds</title>
+<title>Courses – SciML - University of Leeds</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -34,6 +34,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -69,7 +70,63 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing-res .list');
+    const listingTargetEl = window.document.querySelector('#listing-coursera .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-name','listing-host','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-name-sort'] }],
+      
+      searchColumns: ["listing-name","listing-host","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-coursera'] = new List('listing-coursera', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-leeds-course .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-name','listing-host','listing-description',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-name","listing-host","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-leeds-course'] = new List('listing-leeds-course', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-notebook-res .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -82,7 +139,35 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing-res'] = new List('listing-listing-res', options);
+    window['quarto-listings']['listing-notebook-res'] = new List('listing-notebook-res', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-book .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-name','listing-author','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-name-sort'] }],
+      
+      searchColumns: ["listing-name","listing-author","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-book'] = new List('listing-book', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -194,7 +279,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Machine Learning Resources</h1>
+<h1 class="title">Courses</h1>
 </div>
 
 
@@ -212,14 +297,168 @@ window.Quarto = {
 
 
 <p>Below is a list of Machine Learning tutorials and resources that we have found useful. If you find something that you think should be added to the list, please let us know!</p>
-<div id="listing-listing-res" class="quarto-listing quarto-listing-container-table">
+<section id="courses" class="level2">
+<h2 class="anchored" data-anchor-id="courses">Courses</h2>
+<section id="coursera" class="level3">
+<h3 class="anchored" data-anchor-id="coursera">Coursera</h3>
+<p>Coursera is an open online course provider, and with your University of Leeds login, you can have free access to thousands of courses, from hundreds of universities.</p>
+<div id="listing-coursera" class="quarto-listing quarto-listing-container-table">
 <div class="listing-actions-group">
     <div class="input-group input-group-sm quarto-listing-filter">
       <span class="input-group-text"><i class="bi bi-search"></i></span>
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
-<table class="quarto-listing-table table">
+<table class="quarto-listing-table table table-striped">
+<thead>
+<tr>
+<th>
+Name
+</th>
+<th>
+Host
+</th>
+<th>
+Description
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-listing-name-sort="Mathematics for Machine Learning Specialization">
+<td>
+<a href="https://www.coursera.org/programs/university-of-leeds-on-coursera-6er00/specializations/mathematics-machine-learning?authProvider=c4c-leeds-university&amp;source=search" class="name listing-name">Mathematics for Machine Learning Specialization</a>
+</td>
+<td>
+<span class="listing-host">Coursera</span>
+</td>
+<td>
+<span class="listing-description">Prerequisite mathematics for applications in data science and machine learning.</span>
+</td>
+</tr>
+<tr data-index="1" data-listing-name-sort="Machine Learning Theory and Hands-on Practice with Python Specialization">
+<td>
+<a href="https://www.coursera.org/programs/university-of-leeds-on-coursera-6er00/specializations/machine-learnin-theory-and-hands-on-practice-with-pythong-cu?authProvider=c4c-leeds-university&amp;source=search" class="name listing-name">Machine Learning Theory and Hands-on Practice with Python Specialization</a>
+</td>
+<td>
+<span class="listing-host">Coursera</span>
+</td>
+<td>
+<span class="listing-description">Develop Foundational Machine Learning Skills. Add Supervised, Unsupervised, and Deep Learning techniques to your Data Science toolkit.</span>
+</td>
+</tr>
+<tr data-index="2" data-listing-name-sort="Deep learning in Electronic Health Records">
+<td>
+<a href="https://www.coursera.org/programs/university-of-leeds-on-coursera-6er00/learn/cdss2?authProvider=c4c-leeds-university&amp;fromClip=sfc_page_course_link~Th3OO" class="name listing-name">Deep learning in Electronic Health Records</a>
+</td>
+<td>
+<span class="listing-host">Coursera</span>
+</td>
+<td>
+<span class="listing-description">Train deep learning architectures such as Multi-layer perceptron, Convolutional Neural Networks and Recurrent Neural Networks for classification.</span>
+</td>
+</tr>
+<tr data-index="3" data-listing-name-sort="Deep Learning with PyTorch, Image Segmentation">
+<td>
+<a href="https://www.coursera.org/programs/university-of-leeds-on-coursera-6er00/projects/deep-learning-with-pytorch-image-segmentation?authProvider=c4c-leeds-university&amp;source=search" class="name listing-name">Deep Learning with PyTorch, Image Segmentation</a>
+</td>
+<td>
+<span class="listing-host">Coursera</span>
+</td>
+<td>
+<span class="listing-description">Using U-Net architecture for segmentation.</span>
+</td>
+</tr>
+<tr data-index="4" data-listing-name-sort="TensorFlow 2 for Deep Learning Specialization">
+<td>
+<a href="https://www.coursera.org/programs/university-of-leeds-on-coursera-6er00/specializations/tensorflow2-deeplearning?authProvider=c4c-leeds-university&amp;source=search" class="name listing-name">TensorFlow 2 for Deep Learning Specialization</a>
+</td>
+<td>
+<span class="listing-host">Coursera</span>
+</td>
+<td>
+<span class="listing-description">TensorFlow 2.</span>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="university-of-leeds" class="level3">
+<h3 class="anchored" data-anchor-id="university-of-leeds">University of Leeds</h3>
+<p>To get on any University of Leeds module (to attend lectures and have access to course materials) email the module leader, explaining that you are a PhD student wanting to take their module.</p>
+<p>You do not have to be in the School of Computer Science to take the computing modules, but:</p>
+<ul>
+<li>Check you satisfy the prerequisites of the modules (ask your supervisor if you are unsure).</li>
+<li>You should ask your supervisor if the module is relevant to your project.</li>
+<li>If you are coming from another school (especially those not in Engineering and Physical Sciences faculty (EPS)) you may find your initial emails are ignored.</li>
+<li>You can ask your supervisor to advocate for you, sending follow up emails on your behalf.*</li>
+</ul>
+<p>SciML are working on getting access to the course materials, but if you are not on minerva you will not be able to attend the lectures themselves.</p>
+<div id="listing-leeds-course" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table table-striped">
+<thead>
+<tr>
+<th>
+Name
+</th>
+<th>
+Host
+</th>
+<th>
+Description
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0">
+<td>
+<span class="listing-name">COMP3611 Machine Learning</span>
+</td>
+<td>
+<span class="listing-host">University of Leeds</span>
+</td>
+<td>
+<span class="listing-description">3rd year undergraduate module that runs in semester 1. Module leader is Dr Marc de Kamps (M.deKamps@leeds.ac.uk).</span>
+</td>
+</tr>
+<tr data-index="1">
+<td>
+<span class="listing-name">COMP5625 Deep Learning</span>
+</td>
+<td>
+<span class="listing-host">University of Leeds</span>
+</td>
+<td>
+<span class="listing-description">Taught masters module that runs in semester 2. The module leader is Dr Sharib Ali (S.S.Ali@leeds.ac.uk).</span>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+</section>
+<section id="notebooks" class="level2">
+<h2 class="anchored" data-anchor-id="notebooks">Notebooks</h2>
+<div id="listing-notebook-res" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table table-striped">
 <thead>
 <tr>
 <th>
@@ -262,9 +501,63 @@ Description
 No matching items
 </div>
 </div>
+</section>
+<section id="books-and-articles" class="level2">
+<h2 class="anchored" data-anchor-id="books-and-articles">Books and Articles</h2>
+<div id="listing-book" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table table-striped">
+<thead>
+<tr>
+<th>
+Name
+</th>
+<th>
+Author
+</th>
+<th>
+Description
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-listing-name-sort="Deep Learning">
+<td>
+<a href="https://www.deeplearningbook.org/" class="name listing-name">Deep Learning</a>
+</td>
+<td>
+<span class="listing-author">Ian Goodfellow, Yoshua Bengio, Aaron Courville</span>
+</td>
+<td>
+<span class="listing-description">Comprehensive guide to all of the basic machine learning tools.</span>
+</td>
+</tr>
+<tr data-index="1" data-listing-name-sort="Programming pytorch for deep learning">
+<td>
+<a href="https://leeds.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991019550145805181&amp;context=L&amp;vid=44LEE_INST:VU1&amp;lang=en&amp;search_scope=My_Inst_CI_not_ebsco&amp;adaptor=Local%20Search%20Engine&amp;tab=AlmostEverything&amp;query=any,contains,Programming%20PyTorch%20for%20Deep%20Learning&amp;offset=0" class="name listing-name">Programming pytorch for deep learning</a>
+</td>
+<td>
+<span class="listing-author">Ian Pointer</span>
+</td>
+<td>
+<span class="listing-description">Build basic models alongside this book, which comes with coding projects and model solutions.</span>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -287,6 +580,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
