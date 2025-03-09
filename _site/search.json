@@ -891,8 +891,29 @@
   {
     "objectID": "resources/index.html",
     "href": "resources/index.html",
-    "title": "Machine Learning Resources",
+    "title": "Courses",
     "section": "",
-    "text": "Below is a list of Machine Learning tutorials and resources that we have found useful. If you find something that you think should be added to the list, please let us know!\n\n\n    \n      \n      \n    \n\n\n\n\n\nName\n\n\nOrganisation\n\n\nDescription\n\n\n\n\n\n\nCEMAC Jupyter Notebooks\n\n\nLIFD and CEMAC, University of Leeds\n\n\nJupyter notebook tutorials on Convolutional Neural Networks (CNNs), Physics Informed Neural Networks (PINNs), Gaussian Processes, Random Forests, Generative Adversarial Networks (GANs), Auto Encoders, Dimensionality Reduction and XGBoost.\n\n\n\n\nThe Turing Way\n\n\nThe Alan Turing Institute\n\n\nHandbook to reproducible, ethical and collaborative data science. Includes information on version control, open-source code and licensing.\n\n\n\n\n\nNo matching items"
+    "text": "Below is a list of Machine Learning tutorials and resources that we have found useful. If you find something that you think should be added to the list, please let us know!"
+  },
+  {
+    "objectID": "resources/index.html#courses",
+    "href": "resources/index.html#courses",
+    "title": "Courses",
+    "section": "Courses",
+    "text": "Courses\n\nCoursera\nCoursera is an open online course provider, and with your University of Leeds login, you can have free access to thousands of courses, from hundreds of universities.\n\n\n    \n      \n      \n    \n\n\n\n\n\nName\n\n\nHost\n\n\nDescription\n\n\n\n\n\n\nMathematics for Machine Learning Specialization\n\n\nCoursera\n\n\nPrerequisite mathematics for applications in data science and machine learning.\n\n\n\n\nMachine Learning Theory and Hands-on Practice with Python Specialization\n\n\nCoursera\n\n\nDevelop Foundational Machine Learning Skills. Add Supervised, Unsupervised, and Deep Learning techniques to your Data Science toolkit.\n\n\n\n\nDeep learning in Electronic Health Records\n\n\nCoursera\n\n\nTrain deep learning architectures such as Multi-layer perceptron, Convolutional Neural Networks and Recurrent Neural Networks for classification.\n\n\n\n\nDeep Learning with PyTorch, Image Segmentation\n\n\nCoursera\n\n\nUsing U-Net architecture for segmentation.\n\n\n\n\nTensorFlow 2 for Deep Learning Specialization\n\n\nCoursera\n\n\nTensorFlow 2.\n\n\n\n\n\nNo matching items\n\n\n\n\nUniversity of Leeds\nTo get on any University of Leeds module (to attend lectures and have access to course materials) email the module leader, explaining that you are a PhD student wanting to take their module.\nYou do not have to be in the School of Computer Science to take the computing modules, but:\n\nCheck you satisfy the prerequisites of the modules (ask your supervisor if you are unsure).\nYou should ask your supervisor if the module is relevant to your project.\nIf you are coming from another school (especially those not in Engineering and Physical Sciences faculty (EPS)) you may find your initial emails are ignored.\nYou can ask your supervisor to advocate for you, sending follow up emails on your behalf.*\n\nSciML are working on getting access to the course materials, but if you are not on minerva you will not be able to attend the lectures themselves.\n\n\n    \n      \n      \n    \n\n\n\n\n\nName\n\n\nHost\n\n\nDescription\n\n\n\n\n\n\nCOMP3611 Machine Learning\n\n\nUniversity of Leeds\n\n\n3rd year undergraduate module that runs in semester 1. Module leader is Dr Marc de Kamps (M.deKamps@leeds.ac.uk).\n\n\n\n\nCOMP5625 Deep Learning\n\n\nUniversity of Leeds\n\n\nTaught masters module that runs in semester 2. The module leader is Dr Sharib Ali (S.S.Ali@leeds.ac.uk).\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "resources/index.html#notebooks",
+    "href": "resources/index.html#notebooks",
+    "title": "Courses",
+    "section": "Notebooks",
+    "text": "Notebooks\n\n\n    \n      \n      \n    \n\n\n\n\n\nName\n\n\nOrganisation\n\n\nDescription\n\n\n\n\n\n\nCEMAC Jupyter Notebooks\n\n\nLIFD and CEMAC, University of Leeds\n\n\nJupyter notebook tutorials on Convolutional Neural Networks (CNNs), Physics Informed Neural Networks (PINNs), Gaussian Processes, Random Forests, Generative Adversarial Networks (GANs), Auto Encoders, Dimensionality Reduction and XGBoost.\n\n\n\n\nThe Turing Way\n\n\nThe Alan Turing Institute\n\n\nHandbook to reproducible, ethical and collaborative data science. Includes information on version control, open-source code and licensing.\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "resources/index.html#books-and-articles",
+    "href": "resources/index.html#books-and-articles",
+    "title": "Courses",
+    "section": "Books and Articles",
+    "text": "Books and Articles\n\n\n    \n      \n      \n    \n\n\n\n\n\nName\n\n\nAuthor\n\n\nDescription\n\n\n\n\n\n\nDeep Learning\n\n\nIan Goodfellow, Yoshua Bengio, Aaron Courville\n\n\nComprehensive guide to all of the basic machine learning tools.\n\n\n\n\nProgramming pytorch for deep learning\n\n\nIan Pointer\n\n\nBuild basic models alongside this book, which comes with coding projects and model solutions.\n\n\n\n\n\nNo matching items"
   }
 ]

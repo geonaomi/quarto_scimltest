@@ -1,0 +1,7 @@
+- name: COMP3611 Machine Learning
+  host: University of Leeds
+  description:  3rd year undergraduate module that runs in semester 1. Module leader is Dr Marc de Kamps (M.deKamps@leeds.ac.uk).
+
+- name: COMP5625 Deep Learning 
+  host: University of Leeds
+  description: Taught masters module that runs in semester 2. The module leader is Dr Sharib Ali (S.S.Ali@leeds.ac.uk).
