@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="InSAR Time series">
 
-<title>Jacob Connolly – SciML - Leeds</title>
+<title>Machine Learning Resources – SciML - University of Leeds</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,20 +23,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-d19aaff0441ffe538fac26ca03b5f350.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-d19aaff0441ffe538fac26ca03b5f350.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -65,9 +66,67 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing-res .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<link rel="stylesheet" href="../../styles.css">
+    const options = {
+      valueNames: ['listing-name','listing-organization','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-name-sort'] }],
+      
+      searchColumns: ["listing-name","listing-organization","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing-res'] = new List('listing-listing-res', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -77,11 +136,8 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../images/logo_final.png" alt="" class="navbar-logo">
-    </a>
-    <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">SciML - Leeds</span>
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">SciML - University of Leeds</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -91,27 +147,30 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../gpus/index.html"> 
-<span class="menu-text">GPUS</span></a>
+    <a class="nav-link" href="../about/index.html"> 
+<span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../events/index.html"> 
+    <a class="nav-link" href="../events/index.html"> 
 <span class="menu-text">Events</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about/index.html"> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link active" href="../resources/index.html" aria-current="page"> 
+<span class="menu-text">Resources</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../gpus/index.html"> 
+<span class="menu-text">GPUS</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/sciml-leeds/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="https://forms.office.com/pages/responsepage.aspx?id=qO3qvR3IzkWGPlIypTW3y3I2D-tf-_xJodI5_Ex_by9UNzVSSEFIRk8wTjUzQzI0UEZGOTA3R0tROS4u&amp;route=shorturl/"> 
+<span class="menu-text"><span class="btn btn-secondary">Click here to join the mailing list!</span></span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://teams.microsoft.com/l/channel/19%3A7983fce929d04155936c6deab6cbd595%40thread.tacv2/SciML%20Community?groupId=5293870c-9eac-462b-a99b-76ba9804eb41&amp;tenantId=bdeaeda8-c81d-45ce-863e-5232a535b7cb"> <i class="bi bi-Teams" role="img">
@@ -133,53 +192,79 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-
-
-
-<div class="quarto-about-jolla">
-  <img src="portrait_placeholder.png" class="about-image
-  round " style="height: 15em; width: 15em;">
- <header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Jacob Connolly</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">Decision Trees</div>
-  </div>
-  </div>
-<div>
-  <div class="description">
-    InSAR Time series
-  </div>
+<h1 class="title">Machine Learning Resources</h1>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    
+  
+    
   </div>
-</header><div id="person-profile">
-</div>  
+  
+
+
+</header>
+
+
+<p>Below is a list of Machine Learning tutorials and resources that we have found useful. If you find something that you think should be added to the list, please let us know!</p>
+<div id="listing-listing-res" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+Name
+</th>
+<th>
+Organisation
+</th>
+<th>
+Description
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-listing-name-sort="CEMAC Jupyter Notebooks">
+<td>
+<a href="https://cemac.github.io/LIFD_ENV_ML_NOTEBOOKS/" class="name listing-name">CEMAC Jupyter Notebooks</a>
+</td>
+<td>
+<span class="listing-organization">LIFD and CEMAC, University of Leeds</span>
+</td>
+<td>
+<span class="listing-description">Jupyter notebook tutorials on Convolutional Neural Networks (CNNs), Physics Informed Neural Networks (PINNs), Gaussian Processes, Random Forests, Generative Adversarial Networks (GANs), Auto Encoders, Dimensionality Reduction and XGBoost.</span>
+</td>
+</tr>
+<tr data-index="1" data-listing-name-sort="The Turing Way">
+<td>
+<a href="https://book.the-turing-way.org/" class="name listing-name">The Turing Way</a>
+</td>
+<td>
+<span class="listing-organization">The Alan Turing Institute</span>
+</td>
+<td>
+<span class="listing-description">Handbook to reproducible, ethical and collaborative data science. Includes information on version control, open-source code and licensing.</span>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
 </div>
 
-<section id="section" class="level2">
-<h2 data-anchor-id="section"></h2>
-</section>
-<section id="techniques" class="level2">
-<h2 data-anchor-id="techniques">Techniques</h2>
-<ul>
-<li>Supervised learning</li>
-<li>Random Forests</li>
-</ul>
-</section>
-<section id="section-1" class="level2">
-<h2 data-anchor-id="section-1"></h2>
-</section>
-<section id="research-area" class="level2">
-<h2 data-anchor-id="research-area">Research area</h2>
-<ul>
-<li>InSAR Time series</li>
-<li>Noise reduction in SAR data</li>
-</ul>
 
 
-
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

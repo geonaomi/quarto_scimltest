@@ -19,13 +19,6 @@
   access: Anyone at Leeds
   notes: ETA online - Nov/Dec 2024
 
-- name: ARC5
-  path: https://arcdocs.leeds.ac.uk/getting_started/request_hpc_acct.html
-  organization: University of Leeds
-  hardware: TBC
-  access: Anyone at Leeds
-  notes: ETA online - Dec 2025
-
 - name: JASMIN
   path: https://www.jasmin.ac.uk
   organization: NERC
