@@ -19,3 +19,5 @@ Below is an overview of GPU platforms available for research by staff at the Uni
 :::
 
 - [EuroHPC JU - supercomputers](https://eurohpc-ju.europa.eu/about/our-supercomputers_en)
+
+![](../images/logo_final.png){width=10% fig-align="center"}

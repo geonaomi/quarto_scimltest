@@ -3,7 +3,6 @@ title: Maria Luisa Taccari
 description: Groundwater prediction
 image: marialuisataccari.jpg
 categories:
-- committee
 - Deep Learning
 - CNN
 - PINNS

@@ -1,6 +1,6 @@
 
 ---
-title: "Courses"
+title: ""
 listing: 
 
   - id: coursera
@@ -108,3 +108,5 @@ SciML are working on getting access to the course materials, but if you are not 
 
 ::: {#book}
 :::
+
+![](../images/logo_final.png){width=10% fig-align="center"}

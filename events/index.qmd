@@ -59,3 +59,6 @@ machine learning and would <i class="fa fa-heart"></i> to hear about your work!
 
 ::: {#listing-Workshops}
 :::
+
+
+![](../images/logo_final.png){width=10% fig-align="center"}
