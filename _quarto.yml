@@ -18,8 +18,10 @@ website:
     left:
       - text: "Home"
         href: index.qmd
-      - text: "About"
+      - text: "Committee"
         href: about/index.qmd
+      - text: "Members"
+        href: members/index.qmd
       - text: "Events"
         href: events/index.qmd
       - text: "Resources"
