@@ -31,9 +31,11 @@ website:
       
       
     right:
-      - href: https://forms.office.com/pages/responsepage.aspx?id=qO3qvR3IzkWGPlIypTW3y3I2D-tf-_xJodI5_Ex_by9UNzVSSEFIRk8wTjUzQzI0UEZGOTA3R0tROS4u&route=shorturl/
-        text: "<span class='btn btn-secondary'>Click here to join the mailing list!</span>"
-      
+      - text: "<span class='btn btn-secondary'>Click here to join the mailing list</span>"
+        href: https://forms.office.com/pages/responsepage.aspx?id=qO3qvR3IzkWGPlIypTW3y3I2D-tf-_xJodI5_Ex_by9UNzVSSEFIRk8wTjUzQzI0UEZGOTA3R0tROS4u&route=shorturl/
+      - text: "<span class='btn btn-secondary'>Contact Us</span>"
+        href: "mailto: sciml@leeds.ac.uk> sciml@leeds.ac.uk"
+       
       - icon: Teams
         href: https://teams.microsoft.com/l/channel/19%3A7983fce929d04155936c6deab6cbd595%40thread.tacv2/SciML%20Community?groupId=5293870c-9eac-462b-a99b-76ba9804eb41&tenantId=bdeaeda8-c81d-45ce-863e-5232a535b7cb
       

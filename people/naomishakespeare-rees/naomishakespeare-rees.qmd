@@ -8,6 +8,8 @@ categories:
 - CNN
 - PINNS
 links: <a href=https://github.com/geonaomi class="btn btn-primary">Github</a>
+  <a href=https://environment.leeds.ac.uk/see/pgr/11257/naomi-shakespeare-rees class="btn
+      btn-secondary">Website</a>
 techniques:
 - PINNs
 - Convolutional Networks
