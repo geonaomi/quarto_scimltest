@@ -70,7 +70,7 @@ listing:
     table-striped: true
 ---
 
-
+![](../images/logo_final.png){width=10% fig-align="center"}
 
 Below is a list of Machine Learning tutorials and resources that we have found useful. If you find something that you think should be added to the list, please let us know!
 
