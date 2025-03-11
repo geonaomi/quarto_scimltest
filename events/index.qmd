@@ -41,7 +41,7 @@ listing:
     table-striped: true
 date-format: "Do MMM, YYYY"
 ---
-
+![](../images/logo_final.png){width=10% fig-align="center"}
 
 Below is an overview of events organised by the SciML community. We aim to put
 recordings of each event online within a week of them taking place.
