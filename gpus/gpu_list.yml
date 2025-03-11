@@ -41,11 +41,6 @@
   organization: Durham
   hardware: 38x Nvidia V100 across 38 nodes in cluster
   access: EPSRC funded projects (pre EPSRC-application access available)
-
-- name: JADE II
-  path: 
-  organization: Oxford/ATI
-  hardware: 63 DGX MAX-Q nodes with 8x NVidia V100 each
 - name: LEARN
   organization: UoL
   hardware: 1 DGX A100
