@@ -24,6 +24,8 @@ format:
 anchor-sections: false
 ---
 
+![](../images/logo_final.png){width=10% fig-align="center"}
+
 ## People
 
 ::: {#listing-people}
