@@ -12,7 +12,7 @@ listing:
       links: 'links:'
 
   grid-item-align: center
-  image-height: 200px
+  image-height: 220px
   grid-columns: 4
   include:
     categories: "committee"
