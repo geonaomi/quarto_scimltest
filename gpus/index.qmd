@@ -10,6 +10,7 @@ listing:
 metadata-files: 
   - metadata.yml
 ---
+![](../images/logo_final.png){width=10% fig-align="center"}
 
 Below is an overview of GPU platforms available for research by staff at the University of Leeds:
 
