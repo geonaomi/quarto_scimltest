@@ -28,7 +28,9 @@ about:
       text: Github
       href: https://github.com/sciml-leeds/
 ---
+
 ![](../images/logo_final.png){width=10% fig-align="center"}
+
 ## Committee Members
 
 We're currently looking for new committee members! Roles are flexible depending on your time constraints, and are only during term time. If you're interested please contact us at <a href= "mailto: sciml@leeds.ac.uk"> sciml@leeds.ac.uk </a> for more infomation, or chat to any of the committee at events!
@@ -36,4 +38,4 @@ We're currently looking for new committee members! Roles are flexible depending 
 ::: {#Commitee}
 :::
 
-![](../images/logo_final.png){width=10% fig-align="center"}
+#![](../images/logo_final.png){width=10% fig-align="center"}
