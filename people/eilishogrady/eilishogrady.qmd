@@ -1,1 +1,40 @@
 
+---
+title: Eilish O'Grady
+description: InSAR
+image: naomishakespeare-rees.jpg
+categories:
+- committee
+- 
+- 
+- 
+links: <a href=https://github.com/ class="btn btn-primary">Github</a>
+  <a href= class= https://environment.leeds.ac.uk/see/pgr/10039/eilish-o-grady "btn
+      btn-secondary">Website</a>
+techniques:
+- 
+- 
+- 
+applications:
+- Geodesy
+- Interferometric Synthetic Aperature Radar (InSAR)
+about:
+  id: person-profile
+  template: jolla
+---
+   
+:::{#person-profile}
+:::
+   
+##
+## Techniques
+   
+- 
+- 
+- 
+   
+##
+## Research area
+   
+- Geodesy
+- Interferometric Synthetic Aperature Radar (InSAR)
