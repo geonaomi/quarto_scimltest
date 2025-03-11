@@ -1,6 +1,6 @@
-![](../images/logo_final.png){width=10% fig-align="center"}
-
 # Scientific Machine Learning at the University of Leeds
+
+![](./images/logo_final.png){width=10% fig-align="center"}
 
 Hi!
 
