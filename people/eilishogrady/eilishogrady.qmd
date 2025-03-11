@@ -8,7 +8,7 @@ categories:
 - Semantic segmentation
 - diffusion models
 - InSAR
-links: <a href= class= https://environment.leeds.ac.uk/see/pgr/10039/eilish-o-grady "btn
+links: <a href= https://environment.leeds.ac.uk/see/pgr/10039/eilish-o-grady class= "btn
       btn-secondary">Website</a>
 techniques:
 - Semantic segmentation
