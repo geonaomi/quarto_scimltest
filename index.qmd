@@ -22,7 +22,7 @@ You can view the <a href="https://us10.campaign-archive.com/home/?u=1e7160a87211
 If you're based at Leeds and would like to be added to the website, please fill out the following form!
 
 ```{=html}
-<iframe width="640px" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=qO3qvR3IzkWGPlIypTW3y7Bcdk9kSC1KptqPvBBQQ_hUMEoxUUdSWlE1NE45VjFBWlcxMjVPUzBIUC4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+<iframe width="840px" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=qO3qvR3IzkWGPlIypTW3y7Bcdk9kSC1KptqPvBBQQ_hUMEoxUUdSWlE1NE45VjFBWlcxMjVPUzBIUC4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
 ```
 
 ![](./images/logo_final.png){width=10% fig-align="center"}
