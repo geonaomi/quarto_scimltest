@@ -2,7 +2,7 @@
 ---
 title: Eilish O'Grady
 description: InSAR
-image: naomishakespeare-rees.jpg
+image: eilish.jpeg
 categories:
 - committee
 - 
