@@ -5,19 +5,19 @@ description: InSAR
 image: eilish.jpeg
 categories:
 - committee
-- 
-- 
-- 
-links: <a href=https://github.com/ class="btn btn-primary">Github</a>
-  <a href= class= https://environment.leeds.ac.uk/see/pgr/10039/eilish-o-grady "btn
+- Semantic segmentation
+- diffusion models
+- InSAR
+links: <a href= class= https://environment.leeds.ac.uk/see/pgr/10039/eilish-o-grady "btn
       btn-secondary">Website</a>
 techniques:
-- 
-- 
-- 
+- Semantic segmentation
+- Diffusion models
+- InSAR
 applications:
 - Geodesy
 - Interferometric Synthetic Aperature Radar (InSAR)
+- Phase Unwrapping
 about:
   id: person-profile
   template: jolla
@@ -29,12 +29,13 @@ about:
 ##
 ## Techniques
    
-- 
-- 
-- 
+- Semantic segmentation
+- Diffusion models
+- InSAR
    
 ##
 ## Research area
    
 - Geodesy
 - Interferometric Synthetic Aperature Radar (InSAR)
+- Phase Unwrapping
