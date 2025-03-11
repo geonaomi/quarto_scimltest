@@ -1,4 +1,21 @@
-
+```={html}
+<style>
+  .calendar-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 75%; 
+    overflow: hidden;
+  }
+  .calendar-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+</style> 
+```
 # Scientific Machine Learning at the University of Leeds
 
 Hi!
@@ -16,7 +33,9 @@ We also organise [seminars and workshops](/events), as well as send out a monthl
 You can view the <a href="https://us10.campaign-archive.com/home/?u=1e7160a87211972265ca1180b&id=79fe3dd86f">SciML newsletter archives here</a>.
 
 ```{=html}
-<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Europe%2FLondon&showPrint=0&src=bGVlZHN1bml2ZXJzaXR5c2NpbWxAZ21haWwuY29t&color=%23039BE5" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<div class="googleCalendar"> 
+  <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Europe%2FLondon&showPrint=0&src=bGVlZHN1bml2ZXJzaXR5c2NpbWxAZ21haWwuY29t&color=%23039BE5" style="border:solid 1px #777" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+</div> 
 ```
 
 If you're based at Leeds and would like to be added to the website, please fill out the following form!
