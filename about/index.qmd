@@ -38,4 +38,4 @@ We're currently looking for new committee members! Roles are flexible depending 
 ::: {#Commitee}
 :::
 
-#![](../images/logo_final.png){width=10% fig-align="center"}
+![](../images/logo_final.png){width=10% fig-align="center"}
