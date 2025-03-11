@@ -19,7 +19,7 @@ You can view the <a href="https://us10.campaign-archive.com/home/?u=1e7160a87211
 <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Europe%2FLondon&showPrint=0&src=bGVlZHN1bml2ZXJzaXR5c2NpbWxAZ21haWwuY29t&color=%23039BE5" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 ```
 
-If you're based at Leeds and would like to be added to the 'members' section, please fill out the following form!
+If you're based at Leeds and would like to be added to the website, please fill out the following form!
 
 ```{=html}
 <iframe width="640px" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=qO3qvR3IzkWGPlIypTW3y7Bcdk9kSC1KptqPvBBQQ_hUMEoxUUdSWlE1NE45VjFBWlcxMjVPUzBIUC4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
