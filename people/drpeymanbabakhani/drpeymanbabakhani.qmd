@@ -1,10 +1,10 @@
 ---
-title: Dr Peyman Babakhani
+title: Peyman Babakhani
 description: Global carbon cycling
 image: drpeymanbabakhani.png
 categories:
 - Decision Trees
-- PINNS
+- PINNs
 links: <a href=https://github.com/None class="btn btn-primary">Github</a><a href=https://environment.leeds.ac.uk/see/staff/12072/dr-peyman-babakhani
   class="btn btn-secondary">Website</a>
 techniques:
