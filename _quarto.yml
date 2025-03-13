@@ -28,6 +28,8 @@ website:
         href: resources/index.qmd
       - text: "GPUS"
         href: gpus/index.qmd
+      - text: "Newsletter Archive"
+        href: nl_archive/index.qmd
       
       
     right:
