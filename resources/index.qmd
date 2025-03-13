@@ -29,6 +29,8 @@ listing:
     - name
     - host
     - description
+    field-links: 
+        - name
 
     field-display-names: 
       name : Name
@@ -91,8 +93,8 @@ You do not have to be in the School of Computer Science to take the computing mo
 
 *  Check you satisfy the prerequisites of the modules (ask your supervisor if you are unsure).
 *  You should ask your supervisor if the module is relevant to your project.
-*  If you are coming from another school (especially those not in Engineering and Physical Sciences faculty (EPS)) you may find your initial emails are ignored.
-*  You can ask your supervisor to advocate for you, sending follow up emails on your behalf.*
+*  You may find getting on the module more challenging if you are coming from another school (especially those not in Engineering and Physical Sciences faculty (EPS)).
+*  You can ask us at SciML (or your supervisor) to advocate for you to get on these modules.
 
 SciML are working on getting access to the course materials, but if you are not on minerva you will not be able to attend the lectures themselves.
 
