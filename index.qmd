@@ -14,7 +14,6 @@ Institute for Data Analytics (Use [.ics-file download](assets/SciML_community_mo
 the event to your calendar). 
 
 We also organise [seminars and workshops](/events), as well as send out a monthly newsletter.
-You can view the <a href="https://us10.campaign-archive.com/home/?u=1e7160a87211972265ca1180b&id=79fe3dd86f">SciML newsletter archives here</a>.
 
 ```{=html}
 <div class="googleCalendar"> 
