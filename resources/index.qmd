@@ -31,7 +31,6 @@ listing:
     - description
     field-links: 
         - name
-
     field-display-names: 
       name : Name
       host: Host
