@@ -4,7 +4,7 @@ description: Monitoring volcano
 image: yutaroshigemitsu.png
 categories:
 - Deep Learning
-- PINNS
+- PINNs
 links: <a href=https://github.com/shigemitsu-yutaro class="btn btn-primary">Github</a><a
   href=https://earth.kumst.kyoto-u.ac.jp/en/ class="btn btn-secondary">Website</a>
 techniques:
